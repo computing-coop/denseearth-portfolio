@@ -1,0 +1,123 @@
+[
+  {
+      "titre": "LES ECOUTEURS",
+      "id": "ecouteurs",
+      "video": "img/les_ecouteurs.mp4",
+      "width": "500px",
+      "top": "10px",
+      "right": "100",
+      "left": "150px",
+      "description":"LES ÉCOUTEURS <br> electronics, programming<br><br>On the other side of the world, <br>someone has the same headphones <br> as us, and you can hear in their living room. <br> On the one hand, we are listened to, <br> we know it, and on the other hand we listen. <br>In the idea of looking through a keyhole, <br>or as a window into the life of a stranger. <br> Les écouteurs are designed  to ask us <br> about our relationship to privacy. <br> Its use also provides an opportunity <br> to escape from our daily lives."
+  },
+
+  {
+      "titre": "THE SOUND OF THE LINK",
+      "id": "sound of",
+      "video": "img/the_sound_of.mp4",
+      "width": "350px",
+      "top": "200px",
+      "right": "200",
+      "left": "150px",
+      "description":"THE SOUND OF THE LINK <br> electronics, programming<br> <br> Inspired by the short story The Camille Stories <br> written by Donna Haraway, <br> I conceived my project in relation <br> to a utopian future <br> in which groups of people <br> organize themselves into microsociety. <br> The installation The Sound of the Links <br> is a fragment of this civilization <br> that tells how humans <br> experiment communication with plants <br> in an attempt to rebuild a way of life <br> in symbiosis with the species that surround them.<br> I wanted to raise awareness about <br> these imperceptible phenomena <br> recently discovered by biologists,<br> so that we could imagine <br> a different relationship to the world <br> than that of exploitation."
+  },
+
+
+  {
+      "titre": "ORIGAMY CLOCK",
+      "id": "horloge",
+      "video": "img/horloge.mp4",
+      "width": "230px",
+      "top":"0px",
+      "right": "100",
+      "left": "150px",
+      "description": "ORIGAMY CLOCK<br> creative coding<br><br>A visual, poetic representation<br> of time that elapses in a day. <br>One minute, a triangle is formed, <br>one hour an aglomerate.<br> The organic forms wander <br> all day long in the space.<br> 23h59 the space is saturated with forms, <br>at midnight, everything is empty <br>to start from scratch."
+        },
+  {
+      "titre": "LANDSCAPE",
+      "id": "sequence eau",
+      "video": "img/sequence_eau.mp4",
+      "width": "400px",
+      "top":"210px",
+      "description": "LANDSCAPE <br> collaboration with Clara Aboulker <br> and Romain Roucoules <br> 3D video <br> <br> Exploration of the types <br> of 3D transformations on a photo. <br>Three videos that have the same starting <br> landscape are transformed <br> into different atmospheres, <br>water, mountains and forest. <br>The still image comes to life,<br> to return to its initial point."
+    },
+  {
+      "titre": "INTERNET, TAPIS VOLANT ",
+      "id": "tapis",
+      "lien": "internetapisvolantdestempsmodernes.ch",
+      "url": "https://internetapisvolantdestempsmodernes.ch",
+      "top":"30px",
+      "left": "-460px",
+      "right": "0px",
+      "description": "INTERNET TAPIS VOLANT <br> bachelor thesis <br> <br>I decided to question what the Internet was.<br> I focused my research on the creation <br> of the Internet, and the utopias it has created.<br>I wonder what this generates in terms  <br> of objects and spaces in our lives<br>in a more contemporary context. <br> Then, I analyzed in a more metaphorical way. <br> I introducing the notion of heterotopia, <br> the central point of comparison in my thesis, <br>Finally, I wondered about Man's approach <br> to wanting to create technologies <br> that go beyond himself in order to improve <br> and/or emancipate, when he often seems  <br> to be overtaken by his own limitations. <br> My thesis took the form of a carpet in reference <br> to the flying carpet mentioned by Michel Foucault. "
+  },
+
+  {
+      "titre": "APP COLLECTION",
+      "id": "app collection",
+      "image": "img/appcollection.jpg",
+      "height": "300px",
+      "description": "APP COLLECTION <br> electronics <br><br> I can't open my phone <br> and see all the apps I’m using ! <br>  I consume them, knowing little <br> about how they work. <br> Their free and instantaneous nature <br> are not satisfactory. <br> So what's inside the box? <br>  I decide to give a materiality <br> to some functions of my phone <br> - the lamp, the mp3, the compass - <br> to make hardware what was sofware, <br> in the format of my smartphone, <br> and not the form of their old object identity. "
+  },
+
+  {
+      "titre": "FREE $PEECH",
+      "id": "freespeech",
+      "video": "img/freespeech.mp4",
+      "width": "450px",
+      "top":"100px",
+      "right": "100px",
+      "description": "FREE$PEECH <br>with Alfatih Al Zouabi and Sani Irsay<br> object connected, electronic, programming <br><br> Free $peech, are two phones<br>that allow to translate conversations <br>from one language to another.<br>However, everything that is said<br>is directly twitt. You then have <br>the choice: introduce a piece <br>for a confidential sentence.<br>We have thought about the notions <br> of privacy on the web, and data collection.<br>What control do we have over <br>our information when more and more <br> services are claimed free ?"
+    },
+{
+    "titre": "MATIÈRE LUMIÈRE",
+    "id": "matierelum",
+    "image": "img/stenope_3.jpg",
+    "height": "240px",
+    "description": "MATIÈRE LUMIÈRE <br> stenope technique<br><br>Experiments with different<br>exposure times to achieve <br>an abstraction of light."
+   },
+{
+    "titre": "SPACE PICTURE",
+    "id": "space",
+    "lien": "spacepicture.space",
+    "url": "https://spacepicture.space",
+    "top":"400px",
+    "left": "-460px",
+    "description": "PICTURE SPACE <br> programming exercise in three.js <br> <br> cutting an image <br> applied to moving shapes. <br> The 3D space allows you <br> to move through the space <br> with the mouse or the gyroscope <br> of the phone. "
+  },
+{
+    "titre": "KADAVRESKY",
+    "id": "kadavresky",
+    "video": "img/kadavresky.mp4",
+    "width": "400px",
+    "top":"0px",
+    "description": "KADAVRESKY <br> 3D video, virtual reality <br> music, Eliya <br> <br>I have made people <br> around me exquisite corpses. <br> 2D drawings are transformed <br>into 3D sculptures. Virtual reality  <br> allows them to be visualized  <br> sin a three-dimensional space.<br> Their scales, their movements <br> take on a new dimension. <br> I created an unreal and immersive space.  <br> An infinite place, suspended in the air, <br> a virtual gallery whose properties <br> are possible with this type <br> of visualization<br>",
+    "url": "https://vimeo.com/258964410"
+},
+
+{
+    "titre": "GLADIS",
+    "id": "gladis",
+    "video": "img/gladis.mp4",
+    "width": "400px",
+    "top": "350px",
+    "right": "100",
+    "left": "150px",
+    "description":"GLADIS <br> electronics, programming <br> <br> Gladis is an artificial intelligence. <br>She proposes to record voice <br> messages and lock them with a photo <br> that you take in the moment. <br> A city voice mailbox that allows <br> you to imagine another communication <br> between friends. " },
+{
+    "titre": "MY PERSONAL PICTURES",
+    "id": "pp",
+    "lien": "mypersonal💻👀mypersonal📷",
+    "url": "https://xn--mypersonalmypersonal-5g70tkxc0vb.ws",
+    "left": "-460px",
+    "description": "MY PERSONAL PICTURES <br> Programming exercise <br> <br> What does my computer understand about my photos? <br> He will analyze a group of pixels, so we can <br> read my picture through the words he has defined. <br> The final image is visible after a number of clicks."
+  },
+
+{
+    "titre": "RAW MUSIC",
+    "id": "revmo",
+    "video": "img/revmo.mp4",
+    "width": "500px",
+    "top":"100px",
+    "description": "RAW MUSIC <br> UX / UI <br><br>  Raw music is an application <br> connected to an audio recorder. <br> The object is a small button <br> to keep on yourself, to reach. <br> It allows you to record a sound <br> quickly by pressing and holding.<br> The sound synchronizes with the application. <br> On the app interface, we find sorted <br> the sounds we have captured. <br>This makes a sound library <br> that can be used as a memo.  "
+  }
+]

@@ -1,0 +1,388 @@
+@font-face {
+    font-family: "LiberationSerif";
+    src: url('typo/LiberationSerif.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans";
+    src: url('typo/LiberationSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSans-Italic";
+    src: url('typo/LiberationSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSerif-Italic";
+    src: url('typo/LiberationSerif-Italic.ttf');
+}
+
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'LiberationSerif-regular';
+    overflow: auto;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.projects::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+
+}
+
+#menufleche {
+    position: fixed;
+    left: 5vh;
+    top: 2vh;
+    width: 40px;
+    height: auto;
+    display: none;
+}
+
+.fermé {
+    transform: rotate(-90deg);
+}
+
+.title {
+    text-transform: uppercase;
+    position: fixed;
+    right: 2vh;
+    top: 2vh;
+    font-size: 20px;
+    color: black;
+}
+
+.title:hover {
+    color: red;
+}
+
+.mail {
+    position: fixed;
+    left: 1vh;
+    top: -2.8vh;
+
+}
+
+.title:hover #biographie {
+    opacity: 1;
+}
+
+#biographie {
+    text-transform: none;
+    text-decoration: none;
+    opacity: 0;
+    position: fixed;
+    left: 10%;
+    top: 2vh;
+    color: red;
+    transition: 0.5s;
+    transform: translate(-50%, 0);
+}
+
+
+.block {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    z-index: 600;
+    color: black;
+
+}
+
+
+.block:hover {
+    color: #E80C15;
+}
+
+.menu {
+    width: 95%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10px;
+    top: unset;
+    color: black;
+    z-index: 8;
+    font-size: 12px;
+
+}
+
+
+
+.projects {
+    margin-top: 15vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 85%;
+    display: flex;
+    transition: 1s;
+
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    max-width: 100%;
+}
+
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.object {
+    height: max-content;
+    display: flex;
+    margin-left: 20vh;
+}
+
+.project {
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+#biographieA {
+    display: none;
+}
+
+.object video {
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 900px;
+    vertical-align: top;
+}
+
+.modal {
+    overflow: hidden;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    font-size: 15px;
+    top: 0;
+    /* Sit on top */
+    left: 15vw;
+    background-color: white;
+    height: 100%;
+    width: calc(100% - 15vw);
+}
+
+.textdescri {
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 20px;
+    width: 25vw;
+    color: red;
+    cursor: default;
+    opacity: 0;
+    text-align: left;
+    font-family: 'LiberationSans-Italic';
+    font-size: 12px;
+
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+    width: 100%;
+    margin-top: 9vh;
+    height: calc(100% - 9vh);
+
+}
+
+.point {
+    display: block;
+}
+
+.lien {
+    z-index: 8;
+    height: max-content;
+    width: max-content;
+    font-size: 35px;
+    text-decoration: none;
+    color: #49E66B;
+    font-family: 'LiberationSans';
+
+}
+
+.lien:hover {
+    text-decoration: underline;
+}
+
+.close {
+    float: right;
+    font-size: 58px;
+    font-weight: lighter;
+    padding-right: 3vh;
+    line-height: 3.5vh;
+}
+
+.close img {
+    width: 30px;
+    transition: width 0.2s linear, height 0.2s linear;
+    cursor: pointer;
+}
+
+.image {
+    vertical-align: top;
+}
+
+.close:hover img,
+.close:focus img {
+    width: 50px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .block {
+        display: block;
+    }
+
+    .object video {
+        max-width: 100%;
+        max-height: 70vh;
+        transform: translate(0, 0);
+    }
+
+    .object img {
+        max-width: 100%;
+        max-height: 70vh;
+        transform: translate(0, 0);
+    }
+
+    .title:hover #biographie {
+        opacity: 0;
+    }
+
+    .mail {
+        right: -10vw;
+        top: 0.8vh;
+        left: unset;
+        visibility: hidden;
+
+    }
+
+    #biographieA {
+        display: block;
+        width: 100%;
+        height: 90%;
+    }
+
+    #biographieB {
+        display: block;
+        width: 45%;
+        padding-top: 60%;
+        padding-right: 10vh;
+        position: relative;
+        text-transform: none;
+        text-decoration: none;
+        color: red;
+        float: right;
+    }
+
+
+
+
+    .menu {
+        z-index: 600;
+        bottom: unset;
+        top: 3vh;
+        left: 53%;
+        margin-top: 4vh;
+        display: block;
+    }
+
+    .point {
+        display: none;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .lien {
+        width: 90%;
+        transform: translate(2.5%);
+        text-align: right;
+        font-size: 3vh;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+    }
+
+    .textdescri {
+        text-align: right;
+        width: 65vw;
+        display: block;
+        position: relative;
+        transform: translate(-35%);
+        left: 50%;
+        margin-left: 0;
+        margin-bottom: 2vh;
+        opacity: 1;
+
+    }
+
+    .modal {
+        top: 15vh;
+        height: calc(100% - 15vh);
+    }
+
+    #menufleche {
+        display: block;
+        z-index: 600;
+    }
+
+    .projects {
+        display: block;
+        overflow-x: hidden;
+        overflow-y: auto;
+        width: 100%;
+        height: max-content;
+
+    }
+
+    .project {}
+
+    .object {
+        display: flex;
+        margin-bottom: 50vh;
+        width: 100vw;
+        flex-direction: column;
+        margin-left: 0;
+                margin-top: 0;
+
+    }
+
+
+
+}
