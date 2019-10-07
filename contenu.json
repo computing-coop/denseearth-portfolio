@@ -90,7 +90,7 @@
     "video": "img/kadavresky.mp4",
     "width": "400px",
     "top":"0px",
-    "description": "KADAVRESKY <br> 3D video, virtual reality <br> music, Eliya <br> <br>I have made people <br> around me exquisite corpses. <br> 2D drawings are transformed <br>into 3D sculptures. Virtual reality  <br> allows them to be visualized  <br> sin a three-dimensional space.<br> Their scales, their movements <br> take on a new dimension. <br> I created an unreal and immersive space.  <br> An infinite place, suspended in the air, <br> a virtual gallery whose properties <br> are possible with this type <br> of visualization<br>",
+    "description": "KADAVRESKY <br> 3D video, virtual reality <br> music : Eliya <br> <br>I have made people <br> around me exquisite corpses. <br> 2D drawings are transformed <br>into 3D sculptures. Virtual reality  <br> allows them to be visualized  <br> sin a three-dimensional space.<br> Their scales, their movements <br> take on a new dimension. <br> I created an unreal and immersive space.  <br> An infinite place, suspended in the air, <br> a virtual gallery whose properties <br> are possible with this type <br> of visualization<br>",
     "url": "https://vimeo.com/258964410"
 },
 
@@ -99,7 +99,7 @@
     "id": "gladis",
     "video": "img/gladis.mp4",
     "width": "400px",
-    "top": "60px",
+    "top": "20px",
     "right": "100",
     "left": "150px",
     "description":"GLADIS <br> electronics, programming <br> <br> Gladis is an artificial intelligence. <br>She proposes to record voice <br> messages and lock them with a photo <br> that you take in the moment. <br> A city voice mailbox that allows <br> you to imagine another communication <br> between friends. " },
