@@ -1,0 +1,361 @@
+[
+
+
+  {
+      "titre": "collage noir blanc",
+      "id": "collage noir blanc",
+      "image": "illu/collage_1.png",
+      "height": "350px",
+      "top":"330px",
+      "description":""
+  },
+
+
+  {
+      "titre": "ESPRIT COULEUR",
+      "id": "esprit couleur",
+      "image": "illu/illustration_2.png",
+      "height": "500px",
+      "top":"140px",
+      "description":""
+  },
+
+  {
+      "titre": "PEINTURE JAUNE",
+      "id": "peinture jaune",
+      "image": "illu/peinture_1.png",
+      "height": "900px",
+      "marginLeft":"-400px",
+      "description":""
+  },
+
+  {
+      "titre": "FEMME OISEAU",
+      "id": "femme oiseau",
+      "image": "illu/illustration_6.png",
+      "height": "300px",
+      "marginLeft":"-470px",
+      "top":"400px",
+      "description":""
+
+  },
+
+  {
+      "titre": "3D blanche",
+      "id": "3D blanche",
+      "image": "illu/3D_1.png",
+      "height": "400px",
+      "marginLeft":"-180px",
+      "description":""
+  },
+
+  {
+      "titre": "FEMME POISSON",
+      "id": "femme poisson",
+      "image": "illu/illustration_3.png",
+      "height": "300px",
+      "top":"300px",
+      "description":""
+  },
+
+  {
+      "titre": "FEMME ROUGE",
+      "id": "femme rouge",
+      "image": "illu/illustration_4.png",
+      "height": "500px",
+      "top":"70px",
+      "description":""
+  },
+
+
+  {
+      "titre": "CHAT",
+      "id": "chat",
+      "image": "illu/dessin_2.png",
+      "height": "700px",
+      "marginLeft":"180px",
+      "top":"10px",
+      "description":""
+  },
+
+  {
+      "titre": "MONSTRE BLEU",
+      "id": "monstre bleu",
+      "image": "illu/monstre_0.png",
+      "height": "200px",
+      "marginLeft":"-200px",
+      "top":"500px",
+      "description":""
+  },
+
+  {
+      "titre": "MONSTRE ROSE",
+      "id": "monstre rose",
+      "image": "illu/monstre_5.png",
+      "height": "400px",
+      "marginLeft":"-180px",
+      "top":"40px",
+      "description":""
+  },
+
+
+    {
+        "titre": "EDITION MONSTRES",
+        "id": "edition monstres",
+        "video": "illu/edition_2.mp4",
+        "marginLeft":"-380px",
+        "width": "500px",
+        "top":"300px",
+        "description":""
+    },
+
+    {
+        "titre": "scan deformation 1",
+        "id": "scan deformation 1",
+        "image": "illu/monstre_8.png",
+        "marginLeft":"-180px",
+        "top":"30px",
+        "height": "300px",
+        "description":""
+    },
+
+  {
+      "titre": "SCOTCH",
+      "id": "scotch",
+      "image": "illu/scotch_1.png",
+      "marginLeft":"-100px",
+      "height": "500px",
+      "description":""
+  },
+
+  {
+      "titre": "GRAVURE CANCER",
+      "id": "gravure cancer",
+      "image": "illu/gravure_3.jpg",
+      "marginLeft":"-310px",
+      "top":"200px",
+      "height": "400px",
+      "description":""
+  },
+
+  {
+      "titre": "GRAVURE POISSON",
+      "id": "gravure poisson",
+      "image": "illu/gravure_2.jpg",
+      "top":"200px",
+      "height": "400px",
+      "description":""
+  },
+
+  {
+      "titre": "GRAVURE CAPRICORNE",
+      "id": "gravure capricorne",
+      "image": "illu/gravure_4.jpg",
+      "top":"200px",
+      "height": "400px",
+      "description":""
+  },
+
+  {
+      "titre": "GRAVURE TAUREAU",
+      "id": "gravure taureau",
+      "image": "illu/gravure_1.jpg",
+      "top":"200px",
+      "height": "400px",
+      "description":""
+  },
+
+  {
+      "titre": "DEFORMATION",
+      "id": "deformation",
+      "image": "illu/deformation.png",
+      "top":"0px",
+      "marginLeft":"-400px",
+      "height": "800px",
+      "description":""
+  },
+
+  {
+      "titre": "3D ROUGE",
+      "id": "3d rouge",
+      "image": "illu/3D_3.png",
+      "marginLeft":"-600px",
+      "top":"0px",
+      "height": "450px",
+      "description":""
+  },
+
+
+
+  {
+      "titre": "scan deformation 2",
+      "id": "scan deformation 2",
+      "image": "illu/monstre_9.png",
+      "marginLeft":"0px",
+      "top":"400px",
+      "height": "300px",
+      "description":""
+  },
+
+
+
+  {
+      "titre": "decoupage bleu",
+      "id": "decoupage bleu 2",
+      "image": "illu/collage_2.png",
+      "marginLeft":"-60px",
+      "top":"50px",
+      "height": "500px",
+      "description":""
+  },
+
+  {
+      "titre": "EDITION SATAN",
+      "id": "edition satan",
+      "video": "illu/edition_1.mp4",
+      "marginLeft":"300px",
+      "width": "700px",
+      "top":"200px",
+      "description":""
+  },
+
+  {
+      "titre": "PATATE ROUGE",
+      "id": "patate rouge",
+      "image": "illu/dessin_3.png",
+      "marginLeft":"-310px",
+      "top":"20px",
+      "height": "450px",
+      "description":""
+  },
+
+  {
+      "titre": "DEESSE",
+      "id": "deesse",
+      "image": "illu/illustration_1.png",
+      "marginLeft":"-80px",
+      "top":"400px",
+      "height": "250px",
+      "description":""
+  },
+
+  {
+      "titre": "monstre 3 tetes",
+      "id": "monstre 3 tetes",
+      "image": "illu/monstre_4.jpg",
+      "marginLeft":"0px",
+      "top":"60px",
+      "height": "400px",
+      "description":""
+  },
+
+  {
+      "titre": "EDITION PROPE",
+      "id": "edition prope",
+      "video": "illu/edition_4.mp4",
+      "width": "250px",
+      "top": "400px",
+      "description":""
+  },
+
+
+
+
+  {
+      "titre": "ANIMAUX",
+      "id": "animaux",
+      "image": "illu/dessin_4.png",
+      "marginLeft":"250px",
+      "height": "300px",
+      "top":"200px",
+      "description":""
+  },
+
+  {
+      "titre": "3D bleu",
+      "id": "3d bleu",
+      "image": "illu/3D_2.png",
+      "marginLeft":"-450px",
+      "height": "700px",
+      "top":"30px",
+      "description":""
+  },
+
+  {
+      "titre": "PETITE FEMME",
+      "id": "petite femme",
+      "image": "illu/dessin_1.png",
+      "marginLeft":"-650px",
+      "top":"300px",
+      "height": "100px",
+      "description":""
+  },
+
+  {
+      "titre": "monstre aux seins",
+      "id": "monstre aux seins",
+      "image": "illu/monstre_1.png",
+      "marginLeft":"-300px",
+      "top":"30px",
+      "height": "500px",
+      "description":""
+  },
+
+
+  {
+      "titre": "scan deformation 2",
+      "id": "scan deformation 2",
+      "image": "illu/monstre_7.png",
+      "marginLeft":"-150px",
+      "top": "260px",
+      "height": "400px",
+      "description":""
+  },
+
+
+
+
+    {
+        "titre": "3DGRISE",
+        "id": "3dgrise",
+        "image": "illu/3D_4.png",
+        "marginLeft":"-800px",
+        "top": "0px",
+        "height": "750px",
+        "description":""
+    },
+
+
+
+    {
+        "titre": "cheval",
+        "id": "cheval",
+        "image": "illu/monstre_3.jpg",
+        "marginLeft":"0px",
+        "top":"200px",
+        "height": "200px",
+        "description":""
+    },
+
+
+      {
+          "titre": "CARNETS",
+          "id": "carnets",
+          "image": "illu/carnet.png",
+          "marginLeft":"300px",
+          "height": "400px",
+          "top":"280px",
+          "description":""
+      },
+
+      {
+          "titre": "SANS BRAS",
+          "id": "sans bras",
+          "image": "illu/illustration_5.png",
+          "top": "50px",
+          "marginLeft":"200px",
+          "height": "300px",
+          "description":""
+      }
+
+]

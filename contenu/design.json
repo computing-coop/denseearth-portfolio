@@ -1,0 +1,140 @@
+[
+  {
+      "titre": "LES ECOUTEURS",
+      "id": "ecouteurs",
+      "video": "desi/les_ecouteurs.mp4",
+      "width": "550px",
+      "top": "150px",
+      "right": "100px",
+      "left": "150px",
+      "description":"LES ECOUTEURS <br> électronique, programmation<br><br>À l’autre bout du monde, <br>quelqu’un possède le même <br>casque audio que nous,<br> et on peut entendre dans son salon.<br> D’un côté, on est écouté, on le sait,<br> et de l’autre on écoute aussi. <br> Dans l’idée de regarder <br>par le trou d’une serrure, <br>une fenêtre ouverte <br>sur la vie d’un inconnu.<br>"
+  },
+
+  {
+      "titre": "THE SOUND OF THE LINK",
+      "id": "sound of",
+      "video": "desi/the_sound_of.mp4",
+      "width": "650px",
+      "top": "250px",
+      "right": "200",
+      "left": "150px",
+      "description":"THE SOUND OF THE LINK <br>électronique, programmation<br><br> Inspirée par la nouvelle The Camille Stories<br> écrit par Donna Haraway,<br> j’ai conçu mon projet en rapport<br> avec un futur utopique <br> dans lequel des groupes de personnes <br>s’organisent en microsociéte.<br> L’installation The Sound of the Links <br>est un fragment de cette civilisation <br> qui raconte la manière dont les Hommes <br> expérimentent la communication avec les végétaux <br>pour tenter de rebâtir une manière de vivre<br> en symbiose avec les espèces qui les entourent.<br> J’ai souhaité sensibiliser autour <br> de ces phénomènes imperceptibles <br> récemment découverts par les biologistes,<br> pour que nous puissions imaginer <br> un autre rapport au monde <br> que celui de l’exploitation."
+    },
+
+
+  {
+      "titre": "ORIGAMY CLOCK",
+      "id": "horloge",
+      "video": "desi/horloge.mp4",
+      "width": "150px",
+      "top":"70px",
+      "right": "100",
+      "left": "150px",
+      "description": "ORIGAMY CLOCK<br> creative coding<br><br>Représentation visuelle et poétique <br> du temps  qui s’écoule dans une journée. <br> Une minute, un triangle est formé,<br> une heure un aglomerat. <br> Les formes organiques déambulent <br>toute la journée dans l’espace. <br>23h59 l’espace est saturé de formes, <br> minuit, tout se vide pour repartir de rien.<br>"
+  },
+  {
+      "titre": "LANDSCAPE",
+      "id": "sequence eau",
+      "video": "desi/sequence_eau.mp4",
+      "width": "500px",
+      "top":"310px",
+      "description": "LANDSCAPE <br> collaboration avec Clara Aboulker <br>et Romain Roucoules  <br><br>experimentation vidéo 3D."
+  },
+
+  {
+      "titre": "INTERNET, TAPIS VOLANT ",
+      "id": "tapis",
+      "lien": "internetapisvolantdestempsmodernes.ch",
+      "url": "https://internetapisvolantdestempsmodernes.ch",
+      "top":"200px",
+      "left": "-460px",
+      "right": "0px",
+      "description": "INTERNET TAPIS VOLANT <br> mémoire bachelor <br><br>Recherche sur la création d'internet, <br>et les utopies que ça a suscitées.<br>Je me questionne sur ce que cela génère<br>en termes d’objets et d’espaces dans nos vies.<br>Mon mémoire a pris la forme d'un tapis<br>en référence au tapis volant évoqué <br>par Michel Foucault. "
+    },
+
+  {
+      "titre": "COLLECTION",
+      "id": "app collection",
+      "image": "desi/appcollection.jpg",
+      "top":"10px",
+      "height": "500px",
+      "description": "APP COLLECTION <br> électronique <br><br> Je ne peux pas ouvrir mon téléphone <br> et voir les applications que j’utilise. <br> Je les consomme, en sachant peu <br> sur leur fonctionnement. <br> Leur gratuité  et instantanéité  <br> ne sont pas satisfaisantes. <br> Qu'il y a-t-il donc dans cette boite ? <br> Je décide de donner une matérialité <br> à quelques fonctions de mon téléphone <br> - la lampe, le mp3, la boussole - <br> rendre hardware ce qui était sofware, <br> dans le format de mon smartphone, <br> et non la forme de leur ancienne identité d’objet. "
+  },
+
+  {
+      "titre": "FREE $PEECH",
+      "id": "freespeech",
+      "video": "desi/freespeech.mp4",
+      "width": "550px",
+      "top":"300px",
+      "right": "100px",
+      "description": "FREE$PEECH<br>collaboration avec<br>Alfatih Al Zouabi et Sani Irsay<br> object connecté, électronique, programmation<br><br>Free $peech, c'est deux téléphones<br>qui permettent de traduirent<br>des conversations d’une langue à l'autre.<br>Cependant, tout ce qui est dit<br>est directement twitté.<br>Vous avez alors le choix :<br>introduire une pièce pour une phrase <br> qui sera confidentielle.<br><br>Nous avons réfléchi aux notions<br>de privacité sur le web, et de collecte de données.<br>Quelle main avons-nous sur nos informations <br>à l’heure où de plus en plus de services<br>sont prétendu gratuit ?"
+
+    },
+
+
+  {
+      "titre": "SPACE PICTURE",
+      "id": "space",
+      "lien": "spacepicture.space",
+      "url": "https://spacepicture.space",
+      "top":"120px",
+      "left": "-460px",
+      "description": "SPACE PICTURE <br> exercice de programmation en three.js <br> <br> découpage d’une image appliqué<br>à des formes en mouvement. <br> L’espace en 3d permet <br> de se déplacer dans l’espace <br> avec la souris ou le gyroscope <br> du telephone."
+
+  },
+
+
+
+{
+    "titre": "KADAVRESKY",
+    "id": "kadavresky",
+    "video": "desi/kadavresky.mp4",
+    "width": "300px",
+    "top":"300px",
+    "description": "KADAVRESKY <br>vidéo 3D, réalité virtuelle<br>musique : Eliya<br><br>J’ai créée un espace irréel et immersif.<br> Un lieu infini, en suspension dans les airs.<br>Une galerie virtuelle dont les propriétés <br>sont possibles grace à ce type de visualisation.<br><br>un clique sur la video pour <br>la visualiser sur vimeo en 360°.",
+    "url": "https://vimeo.com/258964410"
+},
+
+
+{
+    "titre": "RAW MUSIC",
+    "id": "revmo",
+    "video": "desi/revmo.mp4",
+    "width": "500px",
+    "top":"100px",
+    "description": "RAW MUSIC <br> UX / UI <br><br> Raw est une application<br>connectée à un enregistreur audio. <br> L’objet est un petit bouton <br> à garder sur soi même, à porter de main. <br> Il permet d’enregistrer un son <br> rapidement en restant appuyer. <br> Le son se synchronise dans la bibliothèque<br>sonore de l’application."
+  },
+
+  {
+      "titre": "MY PERSONAL PICTURES",
+      "id": "pp",
+      "lien": "mypersonal💻👀mypersonal📷",
+      "url": "https://xn--mypersonalmypersonal-5g70tkxc0vb.ws",
+      "left": "-460px",
+      "top": "400px",
+      "description": "MY PERSONAL PICTURES <br>  Exercice de programmation <br> <br>Que comprend mon ordinateur de mes photos ?  <br>  Il va analyser un groupe de pixel, ainsi on peut <br>  lire ma photo à travers les mots qu’il aura définis. <br> L’image final est visible au bout d’un nombre de click. "
+    },
+
+  {
+      "titre": "GLADIS",
+      "id": "gladis",
+      "video": "desi/gladis.mp4",
+      "width": "300px",
+      "top": "400px",
+      "right": "100",
+      "left": "150px",
+      "description":"GLADIS <br> electronique, programmation <br> <br> Gladis est une intelligence artificielle. <br>Elle propose d’enregistrer des messages <br> vocaux et de les verrouiller par une photo <br> que l’on prend dans l’instant. <br> Un répondeur de ville qui permet d’imaginer <br> une autre communication. "
+    },
+
+    {
+        "titre": "PLAYLIST",
+        "id": "playlist",
+        "video": "desi/webmusic.mp4",
+        "width": "500px",
+        "top":"100px",
+        "description": "PLAYLIST<br> UX / UI <br><br> Un site qui répertorie<br>chaque jour mes écoutes. <br>L’interface affiche un zoom <br> de chaque pochettes d’albums. <br> L’utilisateur clique sur une image <br> sans savoir le titre qu'il écoutera.<br>"
+    }
+
+
+]

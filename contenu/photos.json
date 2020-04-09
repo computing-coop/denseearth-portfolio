@@ -1,0 +1,194 @@
+[
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_yverdon.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Yverdon-les-Bains <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_plage_1.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"quelque part en Italie<br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_plage_2.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"quelque part en Italie <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/photos turkie 2019.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Pamukkale <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_portugal_5.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Coimbra <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_portugal_6.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Coimbra <br>2019"
+  },
+
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_portugal_3.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Porto <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_portugal_4.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Porto <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/argentique_portugal_2.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Porto <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/portrait_1.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Guillaume <br>2016"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/portrait_3.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Iyo <br>2016"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/portrait_6.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Lucas <br>2016"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/portrait_4.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"femmes nus <br>2015"
+  },
+
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/portrait_2.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Alice <br>2016"
+  },
+
+  {
+      "titre": "EDITION PROPE",
+      "id": "edition prope",
+      "video": "pho/edition_3.mp4",
+      "height": "500px",
+      "top": "100px",
+      "description":" “Le saint sans sexe, trouve le sexe malsain” <br>2016 "
+    },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/stenope_1.jpg",
+      "height": "250px",
+      "top": "200px",
+      "description":"stenope<br> 2015"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/stenope_2.jpg",
+      "height": "250px",
+      "top": "200px",
+      "description":"stenope<br> 2015"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/ciel_2.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Reims<br> 2014 "
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/ciel_1.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Reims<br> 2014"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/ciel_3.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Reims<br> 2014"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/distributeur.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Montréal<br> 2014"
+  }
+
+
+
+]

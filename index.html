@@ -6,37 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Diane Bécheras</title>
+    <link rel="shortcut icon" href="img/logo.ico" >
     <link rel="stylesheet" href="css/main.css">
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
     <script src='js/jquery.min.js'></script>
     <script src='js/jquery.mousewheel.min.js'></script>
 </head>
 
-<body>
+<body class="scroller">
     <!--    bulle d'informations-->
     <header>
-        <div class="mail" style="cursor: pointer;"><video class="vide" id="video" style=" width:40%">
+        <div class="mail" style="cursor: pointer;"><video class="vide" id="video" style=" width:40%" autoplay >
                 <source src="img/mail.mp4" type="video/mp4">
             </video>
         </div>
-        <div class="title" style="cursor: pointer;">Diane Bécheras
-            <div id="biographie" style="display: block; font-size: 18px; transform: translate(0,0); width: 70vw">I'm a media interaction designer. My practice varies from installation, to video, to connected objects. My readings and the stories that surround me are often the starting point for my projects. I like to take them into fictional worlds while questioning our society.</div>
+        <div style="color:#FF0601" class="title1">Diane Bécheras
         </div>
+
+        <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires,<br> j’écris, dessine, construis <br> et photographie.<br>N’hésitez pas à m’écrire<br>pour une commande,<br>une collaboration<br>ou simplement échanger.</div>
+
     </header>
-    <img src="img/fleche.png" id="menufleche" onclick="ouvrirfermer()">
+
+<div>
+<img src="img/decoupage.png" alt="Paris" class="center" >
+</div>
+
+
+<div class="navCategorieBig">
+  <a href="design.html">Design</a>
+  <a href="illustrations.html">Illustrations</a>
+  <a href="photos.html">Photos</a>
+</div>
     <div class="menu" id="menu" onclick="settop()">
     </div>
     <div id="biographieA">
         <div id="biographieB"></div>
     </div>
-    <div class="projects" id="projects">
+
+    <div class="textIntro">
+        <p class="iyo">code @<a href="http://www.iyo.io" target="_blank" style="color: #49E66B; text-decoration: none" >Iyo Bisseck</a></p>
     </div>
+
+  <div>
+  </div>
+
 </body>
 
 </html>
 <script type="text/javascript">
 let request = new XMLHttpRequest();
-request.open("GET", "contenu.json", false);
+request.open("GET", "contenu/design.json", false);
 request.send(null)
 let scrolltab = [];
 let content = JSON.parse(request.responseText);
@@ -61,20 +80,23 @@ let vimblock = '<div class = "object embed-container">' +
     "<iframe src='https://player.vimeo.com/video/258964410' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen onmouseover='montre(this)'' onmouseout='cache(this)''></iframe>" +
     '<div class = "textdescri" ></div> </div>';
 
-document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br> <a href='mailto:diane.becheras@icloud.com' style='color:red'>diane.becheras@icloud.com</a>"
+  document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br> <a href='mailto:diane.becheras@icloud.com' style='color:#FF0601; font-size:18px'>diane.becheras@icloud.com</a>"
 
 
-var vide = document.getElementsByClassName("vide");
-for (var i = 0; i < vide.length; i++) {
-    vide[i].onmouseover = function() {
-        this.play();
-        this.style.cursor = "pointer";
-    };
+    var vide = document.getElementsByClassName("vide");
 
-    vide[i].onclick = function() {
-        window.open('mailto:diane.becheras@icloud.com');
 
-    };
+
+    for (var i = 0; i < vide.length; i++) {
+        vide[i].onmouseover = function() {
+            this.play();
+            this.style.cursor = "pointer";
+        };
+
+        vide[i].onclick = function() {
+            window.open('mailto:diane.becheras@icloud.com');
+
+        };
 
 }
 
@@ -115,16 +137,7 @@ function settop() {
 
 }
 
-function ouvrirfermer() {
-    document.getElementById("menufleche").classList.toggle("fermé");
 
-    if (document.getElementById("menufleche").classList.contains("fermé")) {
-        document.getElementById("menu").style.display = "none";
-    } else {
-        document.getElementById("menu").style.display = "block";
-    }
-
-}
 
 
 
@@ -165,116 +178,29 @@ function ola() {
 
 // document.getElementById("projects").addEventListener("mousewheel", MouseWheelHandler, false);
 // document.getElementById("projects").addEventListener("DOMMouseScroll", MouseWheelHandler, false);
-$("body").mousewheel(function(event, delta) {
+/*$("body").mousewheel(function(event, delta) {
     if (window.innerWidth > 600) {
         document.getElementById("projects").scrollLeft -= (delta * 2);
     } else {
         document.getElementById("projects").scrollTop -= (delta * 2);
 
     }
-})
+})*/
 
-for (let i = 0; i < content.length; i++) {
-    if ((i == 0) && (window.innerWidth < 600)) {
+
+
+if (window.innerWidth < 600) {
         let container = document.createElement('div');
-        container.innerHTML = '<a class="block" onclick="allerauprojet()">Infos sur moi .</a>';
+        container.innerHTML = '<a class="block" onclick="allerauprojet()">Infos sur moi</a>';
         let div = container.firstChild;
-        document.querySelector(".menu").appendChild(div);
-    }
-
-    let container = document.createElement('div');
-    container.innerHTML = '<a class="block" onclick="allerauprojet(this.id)"></a>';
-
-    let div = container.firstChild;
-    div.innerHTML = content[i].titre;
-    if (window.innerWidth < 600) div.innerHTML += " ."
-    div.setAttribute("id", i);
-    document.querySelector(".menu").appendChild(div);
-
-    let douv = document.createElement('div');
-    douv.classList.add("point");
-    douv.innerHTML = '.';
-    document.querySelector(".menu").appendChild(douv);
-
-
-    container = document.createElement('div');
-    if (content[i].image) {
-        container.innerHTML = imgblock;
-        div = container.firstChild;
-        div.id = content[i].id;
-        div.querySelector(".image").src = content[i].image;
-
-        if (window.innerWidth > 600) {
-            div.querySelector(".image").style.width = content[i].width;
-            div.querySelector(".image").style.height = content[i].height;
-        } else {
-            console.log(div.querySelector(".image").scrollWidth)
-        }
-    } else if (content[i].video) {
-        container.innerHTML = vidblock;
-        div = container.firstChild;
-        div.id = content[i].id;
-        div.querySelector(".video").src = content[i].video;
-        if (window.innerWidth > 600) {
-            div.querySelector(".video").style.width = content[i].width;
-
-        } else {
-            div.querySelector(".video").controls = true;
-            div.querySelector(".video").controlsList = "nodownload";
-            div.querySelector(".video").disablePictureInPicture = true;
-            console.log(div.querySelector(".video").width);
-
-        }
-        if (content[i].url) {
-            let hel = div.querySelector(".video");
-            hel.onclick = function() {
-                window.open(content[i].url);
-            };
-            hel.style.cursor = "pointer"
-        }
-
-    } else if (content[i].lien) {
-        container.innerHTML = linkblock;
-        div = container.firstChild;
-        div.id = content[i].id;
-        div.querySelector(".lien").innerHTML = content[i].lien;
-        div.querySelector(".lien").setAttribute("href", content[i].url);
-        div.querySelector(".lien").setAttribute('target', '_blank');
-
-    } else if (content[i].vimeo) {
-        container.innerHTML = vimblock;
-        div = container.firstChild;
-        div.id = content[i].id;
-        if (window.innerWidth > 600) {
-            div.style.minWidth = content[i].width + "px";
-        } else {
-
-        }
-    }
-
-
-    div.querySelector(".textdescri").innerHTML = content[i].description;
-    if (window.innerWidth > 600) {
-
-        if (content[i].top) div.style.transform = "translateY(" + content[i].top + ")";
-        if (content[i].left) div.style.marginLeft = content[i].left;
-        if (content[i].right) div.style.marginRight = content[i].right;
+       // document.querySelector(".menu").appendChild(div);
+       let divo = document.querySelector(".navCategorie").firstChild;
+    document.querySelector(".navCategorie").insertBefore(div, divo);
     }
 
 
 
 
-    document.querySelector(".projects").appendChild(div);
-    if (window.innerWidth > 600) {
-        scrolltab[i] = div.offsetLeft;
-    } else {
-        let clonons = div.querySelector(".textdescri").cloneNode(true);
-        let parento = div.querySelector(".textdescri").parentNode;
-        div.querySelector(".textdescri").parentNode.removeChild(div.querySelector(".textdescri"));
-        parento.insertBefore(clonons, div.children[0]);
-        scrolltab[i] = div.offsetTop;
-    }
-}
 
 setTimeout(function() {
     ola();
