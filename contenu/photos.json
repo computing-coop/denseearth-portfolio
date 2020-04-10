@@ -2,10 +2,19 @@
   {
       "titre": "COLLECTION",
       "id": "photo",
+      "image": "pho/argentique_italie.jpeg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Cinque Terre, Italie <br>2019"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
       "image": "pho/argentique_yverdon.jpg",
       "height": "650px",
       "top": "70px",
-      "description":"Yverdon-les-Bains <br>2019"
+      "description":"Yverdon-les-Bains, Suisse <br>2019"
   },
 
   {
@@ -14,7 +23,7 @@
       "image": "pho/argentique_plage_1.JPG",
       "height": "650px",
       "top": "70px",
-      "description":"quelque part en Italie<br>2019"
+      "description":"Plage, Italie<br>2019"
   },
 
   {
@@ -23,16 +32,16 @@
       "image": "pho/argentique_plage_2.JPG",
       "height": "650px",
       "top": "70px",
-      "description":"quelque part en Italie <br>2019"
+      "description":"Plage, Italie <br>2019"
   },
 
   {
       "titre": "COLLECTION",
       "id": "photo",
-      "image": "pho/photos turkie 2019.jpg",
+      "image": "pho/turkie.jpg",
       "height": "650px",
       "top": "70px",
-      "description":"Pamukkale <br>2019"
+      "description":"Pamukkale, Turquie <br>2019"
   },
 
   {
@@ -41,16 +50,16 @@
       "image": "pho/argentique_portugal_5.JPG",
       "height": "650px",
       "top": "70px",
-      "description":"Coimbra <br>2019"
+      "description":"Coimbra, Portugal <br>2019"
   },
 
   {
       "titre": "COLLECTION",
       "id": "photo",
-      "image": "pho/argentique_portugal_6.JPG",
+      "image": "pho/argentique_portugal_6.jpg",
       "height": "650px",
       "top": "70px",
-      "description":"Coimbra <br>2019"
+      "description":"Coimbra, Portugal <br>2019"
   },
 
 
@@ -60,7 +69,7 @@
       "image": "pho/argentique_portugal_3.JPG",
       "height": "650px",
       "top": "70px",
-      "description":"Porto <br>2019"
+      "description":"Porto, Portugal <br>2019"
   },
 
   {
@@ -69,7 +78,7 @@
       "image": "pho/argentique_portugal_4.JPG",
       "height": "650px",
       "top": "70px",
-      "description":"Porto <br>2019"
+      "description":"Porto, Portugal <br>2019"
   },
 
   {
@@ -78,7 +87,7 @@
       "image": "pho/argentique_portugal_2.JPG",
       "height": "650px",
       "top": "70px",
-      "description":"Porto <br>2019"
+      "description":"Porto, Portugal <br>2019"
   },
 
   {
@@ -133,7 +142,7 @@
       "video": "pho/edition_3.mp4",
       "height": "500px",
       "top": "100px",
-      "description":" “Le saint sans sexe, trouve le sexe malsain” <br>2016 "
+      "description":" “Le saint sans sexe, trouve le sexe malsain” <br>édition 2016 "
     },
 
   {
@@ -142,7 +151,7 @@
       "image": "pho/stenope_1.jpg",
       "height": "250px",
       "top": "200px",
-      "description":"stenope<br> 2015"
+      "description":"Exercice stenope<br> 2015"
   },
 
   {
@@ -151,7 +160,16 @@
       "image": "pho/stenope_2.jpg",
       "height": "250px",
       "top": "200px",
-      "description":"stenope<br> 2015"
+      "description":"Exercice stenope<br> 2015"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "photo",
+      "image": "pho/stenope_3.jpg",
+      "height": "250px",
+      "top": "200px",
+      "description":"Exercice stenope<br> 2015"
   },
 
   {
@@ -186,7 +204,7 @@
       "image": "pho/distributeur.jpg",
       "height": "650px",
       "top": "70px",
-      "description":"Montréal<br> 2014"
+      "description":"Montréal, Canada<br> 2014"
   }
 
 
