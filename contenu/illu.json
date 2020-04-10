@@ -185,15 +185,25 @@
       "description":""
   },
 
+  {
+      "titre": "PEINTURE BLEU",
+      "id": "peinture bleu",
+      "image": "illu/peinture_5.png",
+      "marginLeft":"-400px",
+      "top":"30px",
+      "height": "600px",
+      "description":""
+  },
+
 
 
   {
       "titre": "scan deformation 2",
       "id": "scan deformation 2",
       "image": "illu/monstre_9.png",
-      "marginLeft":"0px",
-      "top":"400px",
-      "height": "300px",
+      "marginLeft":"-300px",
+      "top":"300px",
+      "height": "400px",
       "description":""
   },
 
@@ -203,7 +213,7 @@
       "titre": "decoupage bleu",
       "id": "decoupage bleu 2",
       "image": "illu/collage_2.png",
-      "marginLeft":"-60px",
+      "marginLeft":"-200px",
       "top":"50px",
       "height": "500px",
       "description":""
@@ -272,6 +282,26 @@
   },
 
   {
+      "titre": "image3D",
+      "id": "image3D",
+      "image": "illu/visage.png",
+      "marginLeft":"0px",
+      "height": "400px",
+      "top":"400px",
+      "description":""
+  },
+
+  {
+      "titre": "image3D",
+      "id": "image3D",
+      "image": "illu/image3D.png",
+      "marginLeft":"-250px",
+      "height": "200px",
+      "top":"60px",
+      "description":""
+  },
+
+  {
       "titre": "3D bleu",
       "id": "3d bleu",
       "image": "illu/3D_2.png",
@@ -325,14 +355,33 @@
         "description":""
     },
 
+    {
+        "titre": "corp",
+        "id": "corp",
+        "image": "illu/corp.png",
+        "marginLeft":"-400px",
+        "top":"20px",
+        "height": "400px",
+        "description":""
+    },
+
+    {
+        "titre": "animation",
+        "id": "animation",
+        "video": "illu/animation.mp4",
+        "marginLeft":"0px",
+        "width": "250px",
+        "top":"400px",
+        "description":""
+    },
 
 
     {
         "titre": "cheval",
         "id": "cheval",
         "image": "illu/monstre_3.jpg",
-        "marginLeft":"0px",
-        "top":"200px",
+        "marginLeft":"-200px",
+        "top":"150px",
         "height": "200px",
         "description":""
     },
@@ -342,18 +391,41 @@
           "titre": "CARNETS",
           "id": "carnets",
           "image": "illu/carnet.png",
-          "marginLeft":"300px",
+          "marginLeft":"50px",
           "height": "400px",
           "top":"280px",
           "description":""
       },
 
       {
+          "titre": "FEUTRE",
+          "id": "feutre",
+          "image": "illu/dessin_feutre.png",
+          "marginLeft":"-100px",
+          "height": "400px",
+          "top":"40px",
+          "description":""
+      },
+
+      {
+          "titre": "GUERRIER",
+          "id": "guerrier",
+          "image": "illu/guerrier.png",
+          "marginLeft":"0px",
+          "height": "200px",
+          "top":"450px",
+          "description":""
+      },
+
+
+
+
+      {
           "titre": "SANS BRAS",
           "id": "sans bras",
           "image": "illu/illustration_5.png",
           "top": "50px",
-          "marginLeft":"200px",
+          "marginLeft":"100px",
           "height": "300px",
           "description":""
       }
