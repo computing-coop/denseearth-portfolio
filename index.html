@@ -23,19 +23,31 @@
         <div style="color:#FF0601" class="title1">Diane Bécheras
         </div>
 
-        <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires,<br> j’écris, dessine, construis <br> et photographie.<br>N’hésitez pas à m’écrire<br>pour une commande,<br>une collaboration<br>ou simplement échanger.</div>
+	<div class="container">
+		 <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires, j’écris,<br> dessine, construit et photographie.<br> Diplômé de l’ECAL.<br><br>
+       <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
+       <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
+     </div>
+
+	</div>
+
 
     </header>
 
-<div>
-<img src="img/decoupage.png" alt="Paris" class="center" >
+<div class="flex">
+  <div class="center" >
+    <p> J’imagine des histoires, j’écris,<br> dessine, construit et photographie.<br> Diplômé de l’ECAL.<br>
+      <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
+      <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
+    </p>
+  </div>
 </div>
 
 
 <div class="navCategorieBig">
   <a href="design.html">Design</a>
-  <a href="illustrations.html">Illustrations</a>
-  <a href="photos.html">Photos</a>
+  <a href="illustrations.html">Illustration</a>
+  <a href="photos.html">Photo</a>
 </div>
     <div class="menu" id="menu" onclick="settop()">
     </div>
@@ -80,7 +92,7 @@ let vimblock = '<div class = "object embed-container">' +
     "<iframe src='https://player.vimeo.com/video/258964410' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen onmouseover='montre(this)'' onmouseout='cache(this)''></iframe>" +
     '<div class = "textdescri" ></div> </div>';
 
-  document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br> <a href='mailto:diane.becheras@icloud.com' style='color:#FF0601; font-size:18px'>diane.becheras@icloud.com</a>"
+  document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br> "
 
 
     var vide = document.getElementsByClassName("vide");
