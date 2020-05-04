@@ -1,222 +1,224 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Diane Bécheras</title>
-    <link rel="shortcut icon" href="img/logo.ico" >
-    <link rel="stylesheet" href="css/main.css">
-    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
-    <script src='js/jquery.min.js'></script>
-    <script src='js/jquery.mousewheel.min.js'></script>
-</head>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <title>Diane Bécheras</title>
+      <link rel="shortcut icon" href="img/logo.ico" >
+      <link rel="stylesheet" href="css/main.css">
+      <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+      <script src='js/jquery.min.js'></script>
+      <script src='js/jquery.mousewheel.min.js'></script>
+  </head>
 
-<body class="scroller">
-    <!--    bulle d'informations-->
-    <header>
-        <div class="mail" style="cursor: pointer;"><video class="vide" id="video" style=" width:40%" autoplay >
-                <source src="img/mail.mp4" type="video/mp4">
-            </video>
+  <body class="scroller">
+      <!--    bulle d'informations-->
+      <header>
+          <div class="mail" style="cursor: pointer;"><video class="vide" id="video" style=" width:40%" autoplay >
+                  <source src="img/mail.mp4" type="video/mp4">
+              </video>
+          </div>
+
+          <div style="color:#FF0601" class="title1">Diane Bécheras
+          </div>
+
+        	<div class="container">
+        		 <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires, j’écris,<br> dessine, construit et photographie.<br>Artiste Designer.<br><br>
+               <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
+               <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
+             </div>
+        	</div>
+
+      </header>
+
+      <div >
+        <div class="center" >
+          <p> J’imagine des histoires, j’écris,<br> dessine, construit et photographie.<br> Artiste Designer.<br>
+            <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
+            <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
+          </p>
         </div>
-        <div style="color:#FF0601" class="title1">Diane Bécheras
-        </div>
+      </div>
 
-	<div class="container">
-		 <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires, j’écris,<br> dessine, construit et photographie.<br> Diplômé de l’ECAL.<br><br>
-       <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
-       <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
-     </div>
+      <div class="navCategorieBig">
+        <a href="design.html">Design</a>
+        <a href="illustrations.html">Illustration</a>
+        <a href="photos.html">Photo</a>
+      </div>
 
-	</div>
+      <div class="menu" id="menu" onclick="settop()">
+      </div>
 
-
-    </header>
-
-<div >
-  <div class="center" >
-    <p> J’imagine des histoires, j’écris,<br> dessine, construit et photographie.<br> Diplômé de l’ECAL.<br>
-      <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
-      <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
-    </p>
-  </div>
-</div>
-
-
-<div class="navCategorieBig">
-  <a href="design.html">Design</a>
-  <a href="illustrations.html">Illustration</a>
-  <a href="photos.html">Photo</a>
-</div>
-    <div class="menu" id="menu" onclick="settop()">
-    </div>
-    <div id="biographieA">
+      <div id="biographieA">
         <div id="biographieB"></div>
-    </div>
+      </div>
 
-    <div class="textIntro">
-        <p class="iyo">code @<a href="http://www.iyo.io" target="_blank" style="color: #49E66B; text-decoration: none" >Iyo Bisseck</a></p>
-    </div>
+      <div class="textIntro">
+          <p class="iyo">code @<a href="http://www.iyo.io" target="_blank" style="color: #49E66B; text-decoration: none" >Iyo Bisseck</a></p>
+      </div>
 
-  <div>
-  </div>
+      <div>
+      </div>
 
-</body>
+
+  </body>
 
 </html>
+
 <script type="text/javascript">
-let request = new XMLHttpRequest();
-request.open("GET", "contenu/design.json", false);
-request.send(null)
-let scrolltab = [];
-let content = JSON.parse(request.responseText);
+  let request = new XMLHttpRequest();
+  request.open("GET", "contenu/design.json", false);
+  request.send(null)
+  let scrolltab = [];
+  let content = JSON.parse(request.responseText);
 
-let vidblock = '<div class="object" >' +
-    '<video class="video" autoplay muted loop onmouseover="montre(this)" onmouseout="cache(this)" onclick="mutemute(this)" style="z-index:6">' +
-    '<source src="img/1.mp4" type="video/mp4">' +
-    '</video>' +
-    '<div class="textdescri"></div>' +
-    '</div>';
+  let vidblock = '<div class="object" >' +
+      '<video class="video" autoplay muted loop onmouseover="montre(this)" onmouseout="cache(this)" onclick="mutemute(this)" style="z-index:6">' +
+      '<source src="img/1.mp4" type="video/mp4">' +
+      '</video>' +
+      '<div class="textdescri"></div>' +
+      '</div>';
 
-let imgblock = '<div class="object">' +
-    '<img src="img/fleche.png" class="image" onmouseover="montre(this)" onmouseout="cache(this)" style="z-index:6">' +
-    '<div class="textdescri"></div>' +
-    '</div>';
+  let imgblock = '<div class="object">' +
+      '<img src="img/fleche.png" class="image" onmouseover="montre(this)" onmouseout="cache(this)" style="z-index:6">' +
+      '<div class="textdescri"></div>' +
+      '</div>';
 
-let linkblock = '<div class = "object">' +
-    ' <a class="lien" onmouseover="montre(this)" onmouseout="cache(this)">ddbjkdbjksbdjksdjb</a>' +
-    '<div class = "textdescri" ></div> </div>';
+  let linkblock = '<div class = "object">' +
+      ' <a class="lien" onmouseover="montre(this)" onmouseout="cache(this)">ddbjkdbjksbdjksdjb</a>' +
+      '<div class = "textdescri" ></div> </div>';
 
-let vimblock = '<div class = "object embed-container">' +
-    "<iframe src='https://player.vimeo.com/video/258964410' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen onmouseover='montre(this)'' onmouseout='cache(this)''></iframe>" +
-    '<div class = "textdescri" ></div> </div>';
+  let vimblock = '<div class = "object embed-container">' +
+      "<iframe src='https://player.vimeo.com/video/258964410' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen onmouseover='montre(this)'' onmouseout='cache(this)''></iframe>" +
+      '<div class = "textdescri" ></div> </div>';
 
-  document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br> "
-
-
-    var vide = document.getElementsByClassName("vide");
+    document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br> "
 
 
-
-    for (var i = 0; i < vide.length; i++) {
-        vide[i].onmouseover = function() {
-            this.play();
-            this.style.cursor = "pointer";
-        };
-
-        vide[i].onclick = function() {
-            window.open('mailto:diane.becheras@icloud.com');
-
-        };
-
-}
-
-function mutemute(blo) {
-    if (window.innerWidth < 600) {
-        if (blo.muted) {
-            blo.muted = false;
-        } else {
-            blo.muted = true;
-        }
-    }
-
-}
-
-function cache(blo) {
-    if (window.innerWidth > 600) {
-
-        blo.nextSibling.style.opacity = 0;
-    }
-
-    if (blo.classList.contains("video")) blo.muted = true;
-
-}
-
-function montre(blo) {
-    if (window.innerWidth > 600) {
-
-        blo.nextSibling.style.opacity = 1;
-
-    }
-    if (blo.classList.contains("video")) blo.muted = false;
-
-}
-
-function settop() {
-    setTimeout(function() { document.getElementById("projects").scrollTop = 0; }, 10);
-
-
-}
+      var vide = document.getElementsByClassName("vide");
 
 
 
+      for (var i = 0; i < vide.length; i++) {
+          vide[i].onmouseover = function() {
+              this.play();
+              this.style.cursor = "pointer";
+          };
+
+          vide[i].onclick = function() {
+              window.open('mailto:diane.becheras@icloud.com');
+
+          };
+
+  }
+
+  function mutemute(blo) {
+      if (window.innerWidth < 600) {
+          if (blo.muted) {
+              blo.muted = false;
+          } else {
+              blo.muted = true;
+          }
+      }
+
+  }
+
+  function cache(blo) {
+      if (window.innerWidth > 600) {
+
+          blo.nextSibling.style.opacity = 0;
+      }
+
+      if (blo.classList.contains("video")) blo.muted = true;
+
+  }
+
+  function montre(blo) {
+      if (window.innerWidth > 600) {
+
+          blo.nextSibling.style.opacity = 1;
+
+      }
+      if (blo.classList.contains("video")) blo.muted = false;
+
+  }
+
+  function settop() {
+      setTimeout(function() { document.getElementById("projects").scrollTop = 0; }, 10);
 
 
-function allerauprojet(bla) {
-    if (bla) {
-        if (window.innerWidth > 600) {
-            document.getElementById("projects").scroll({ top: 0, left: scrolltab[bla] - window.innerWidth / 3, behavior: 'smooth' });
-
-        } else {
-            if (document.getElementById("projects").children[bla].id == "matierelum") {
-                document.body.scrollTop = scrolltab[bla] - window.innerHeight * 0.65;
-            } else {
-                document.body.scrollTop = scrolltab[bla] - window.innerHeight;
-
-            }
-        }
-    } else {
-        document.body.scrollTop = 0;
-
-    }
-}
-
-function ola() {
-
-    let blou = document.getElementsByClassName("object");
-
-    for (let i = 0; i < blou.length; i++) {
-
-
-        if (window.innerWidth > 600) {
-            scrolltab[i] = blou[i].offsetLeft;
-        } else {
-            scrolltab[i] = blou[i].offsetTop + blou[i].offsetHeight;
-        }
-
-    }
-}
-
-// document.getElementById("projects").addEventListener("mousewheel", MouseWheelHandler, false);
-// document.getElementById("projects").addEventListener("DOMMouseScroll", MouseWheelHandler, false);
-/*$("body").mousewheel(function(event, delta) {
-    if (window.innerWidth > 600) {
-        document.getElementById("projects").scrollLeft -= (delta * 2);
-    } else {
-        document.getElementById("projects").scrollTop -= (delta * 2);
-
-    }
-})*/
-
-
-
-if (window.innerWidth < 600) {
-        let container = document.createElement('div');
-        container.innerHTML = '<a class="block" onclick="allerauprojet()">Infos sur moi</a>';
-        let div = container.firstChild;
-       // document.querySelector(".menu").appendChild(div);
-       let divo = document.querySelector(".navCategorie").firstChild;
-    document.querySelector(".navCategorie").insertBefore(div, divo);
-    }
+  }
 
 
 
 
 
-setTimeout(function() {
-    ola();
-}, 1000);
+  function allerauprojet(bla) {
+      if (bla) {
+          if (window.innerWidth > 600) {
+              document.getElementById("projects").scroll({ top: 0, left: scrolltab[bla] - window.innerWidth / 3, behavior: 'smooth' });
 
-window.onresize = ola;
+          } else {
+              if (document.getElementById("projects").children[bla].id == "matierelum") {
+                  document.body.scrollTop = scrolltab[bla] - window.innerHeight * 0.65;
+              } else {
+                  document.body.scrollTop = scrolltab[bla] - window.innerHeight;
+
+              }
+          }
+      } else {
+          document.body.scrollTop = 0;
+
+      }
+  }
+
+  function ola() {
+
+      let blou = document.getElementsByClassName("object");
+
+      for (let i = 0; i < blou.length; i++) {
+
+
+          if (window.innerWidth > 600) {
+              scrolltab[i] = blou[i].offsetLeft;
+          } else {
+              scrolltab[i] = blou[i].offsetTop + blou[i].offsetHeight;
+          }
+
+      }
+  }
+
+  // document.getElementById("projects").addEventListener("mousewheel", MouseWheelHandler, false);
+  // document.getElementById("projects").addEventListener("DOMMouseScroll", MouseWheelHandler, false);
+  /*$("body").mousewheel(function(event, delta) {
+      if (window.innerWidth > 600) {
+          document.getElementById("projects").scrollLeft -= (delta * 2);
+      } else {
+          document.getElementById("projects").scrollTop -= (delta * 2);
+
+      }
+  })*/
+
+
+
+  if (window.innerWidth < 600) {
+          let container = document.createElement('div');
+          container.innerHTML = '<a class="block" onclick="allerauprojet()">Infos sur moi</a>';
+          let div = container.firstChild;
+         // document.querySelector(".menu").appendChild(div);
+         let divo = document.querySelector(".navCategorie").firstChild;
+      document.querySelector(".navCategorie").insertBefore(div, divo);
+      }
+
+
+
+
+
+  setTimeout(function() {
+      ola();
+  }, 1000);
+
+  window.onresize = ola;
 </script>
