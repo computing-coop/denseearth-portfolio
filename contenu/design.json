@@ -7,7 +7,7 @@
       "top": "150px",
       "right": "100px",
       "left": "150px",
-      "description":"LES ECOUTEURS <br> électronique, programmation<br><br>À l’autre bout du monde, <br>quelqu’un possède le même <br>casque audio que nous,<br> et on peut entendre dans son salon.<br> D’un côté, on est écouté, on le sait,<br> et de l’autre on écoute aussi. <br> Dans l’idée de regarder <br>par le trou d’une serrure, <br>une fenêtre ouverte <br>sur la vie d’un inconnu.<br>"
+      "description":"LES ECOUTEURS <br> électronique, programmation<br><br>À l’autre bout du monde, <br>quelqu’un possède le même <br>casque audio que nous,<br> et nous pouvons entendre dans son salon.<br> D’un côté, on est écouté, on le sait,<br> et de l’autre on écoute aussi. <br> Dans l’idée de regarder <br>par le trou d’une serrure, <br>une fenêtre ouverte <br>sur la vie d’un inconnu.<br>"
   },
 
   {
@@ -18,7 +18,7 @@
       "top": "250px",
       "right": "200",
       "left": "150px",
-      "description":"THE SOUND OF THE LINK <br>électronique, programmation<br><br> Inspirée par la nouvelle The Camille Stories<br> écrit par Donna Haraway,<br> j’ai conçu mon projet en rapport<br> avec un futur utopique <br> dans lequel des groupes de personnes <br>s’organisent en microsociéte.<br> L’installation The Sound of the Links <br>est un fragment de cette civilisation <br> qui raconte la manière dont les Hommes <br> expérimentent la communication avec les végétaux <br>pour tenter de rebâtir une manière de vivre<br> en symbiose avec les espèces qui les entourent.<br> J’ai souhaité sensibiliser autour <br> de ces phénomènes imperceptibles <br> récemment découverts par les biologistes,<br> pour que nous puissions imaginer <br> un autre rapport au monde <br> que celui de l’exploitation."
+      "description":"THE SOUND OF THE LINK <br>électronique, programmation<br><br> Inspirée par la nouvelle The Camille Stories<br> écrit par Donna Haraway,<br> j’ai conçu mon projet en rapport<br> avec un futur utopique <br> dans lequel des groupes de personnes <br>s’organisent en microsociétes.<br> L’installation The Sound of the Links <br>est un fragment de cette civilisation <br> qui raconte la manière dont les Hommes <br> expérimentent la communication avec les végétaux <br>pour tenter de rebâtir une manière de vivre<br> en symbiose avec les espèces qui les entourent.<br> J’ai souhaité sensibiliser autour <br> de ces phénomènes imperceptibles <br> récemment découverts par les biologistes,<br> pour que nous puissions imaginer <br> un autre rapport au monde <br> que celui de l’exploitation."
     },
 
 
@@ -30,7 +30,7 @@
       "top":"70px",
       "right": "100",
       "left": "150px",
-      "description": "ORIGAMY CLOCK<br> creative coding<br><br>Représentation visuelle et poétique <br> du temps  qui s’écoule dans une journée. <br> Une minute, un triangle est formé,<br> une heure un aglomerat. <br> Les formes organiques déambulent <br>toute la journée dans l’espace. <br>23h59 l’espace est saturé de formes, <br> minuit, tout se vide pour repartir de rien.<br>"
+      "description": "ORIGAMY CLOCK<br> creative coding<br><br>Représentation visuelle et poétique <br> du temps  qui s’écoule dans une journée. <br> Une minute, un triangle est formé,<br> une heure un agglomerat. <br> Les formes organiques déambulent <br>toute la journée dans l’espace. <br>23h59 l’espace est saturé de formes, <br> minuit, tout se vide pour repartir de rien.<br>"
   },
   {
       "titre": "LANDSCAPE",
@@ -44,12 +44,12 @@
   {
       "titre": "INTERNET, TAPIS VOLANT ",
       "id": "tapis",
-      "lien": "internetapisvolantdestempsmodernes.ch",
-      "url": "https://internetapisvolantdestempsmodernes.ch",
+      "lien": "internetapisvolantdestempsmodernes.site",
+      "url": "http://internetapisvolantdestempsmodernes.site/",
       "top":"200px",
       "left": "-460px",
       "right": "0px",
-      "description": "INTERNET TAPIS VOLANT <br> mémoire bachelor <br><br>Recherche sur la création d'internet, <br>et les utopies que ça a suscitées.<br>Je me questionne sur ce que cela génère<br>en termes d’objets et d’espaces dans nos vies.<br>Mon mémoire a pris la forme d'un tapis<br>en référence au tapis volant évoqué <br>par Michel Foucault. "
+      "description": "INTERNET TAPIS VOLANT <br> mémoire bachelor <br><br>Recherche sur la création d'internet, <br>et les utopies que cela a suscitées.<br>Je me questionne sur ce que cela génère<br>en termes d’objets et d’espaces dans nos vies.<br>Mon mémoire a pris la forme d'un tapis<br>en référence au tapis volant évoqué <br>par Michel Foucault. "
     },
 
   {
@@ -68,7 +68,7 @@
       "width": "550px",
       "top":"300px",
       "right": "100px",
-      "description": "FREE$PEECH<br>collaboration avec<br>Alfatih Al Zouabi et Sani Irsay<br> object connecté, électronique, programmation<br><br>Free $peech, c'est deux téléphones<br>qui permettent de traduirent<br>des conversations d’une langue à l'autre.<br>Cependant, tout ce qui est dit<br>est directement twitté.<br>Vous avez alors le choix :<br>introduire une pièce pour une phrase <br> qui sera confidentielle.<br><br>Nous avons réfléchi aux notions<br>de privacité sur le web, et de collecte de données.<br>Quelle main avons-nous sur nos informations <br>à l’heure où de plus en plus de services<br>sont prétendu gratuit ?"
+      "description": "FREE$PEECH<br>collaboration avec<br>Alfatih Al Zouabi et Sani Irsay<br> object connecté, électronique, programmation<br><br>Free $peech, c'est deux téléphones<br>qui permettent de traduirent<br>des conversations d’une langue à l'autre.<br>Cependant, tout ce qui est dit<br>est directement twitté.<br>Vous avez alors le choix :<br>introduire une pièce pour une phrase <br> qui sera confidentielle.<br><br>Nous avons réfléchi aux notions<br>de privacité sur le web, et de collecte de données.<br>Quelle main avons-nous sur nos informations <br>à l’heure où de plus en plus de services<br>sont prétendus gratuit ?"
 
     },
 
@@ -103,7 +103,7 @@
     "video": "desi/revmo.mp4",
     "width": "500px",
     "top":"100px",
-    "description": "RAW MUSIC <br> UX / UI <br><br> Raw est une application<br>connectée à un enregistreur audio. <br> L’objet est un petit bouton <br> à garder sur soi même, à porter de main. <br> Il permet d’enregistrer un son <br> rapidement en restant appuyer. <br> Le son se synchronise dans la bibliothèque<br>sonore de l’application."
+    "description": "RAW MUSIC <br> UX / UI <br><br> Raw est une application<br>connectée à un enregistreur audio. <br> L’objet est un petit bouton <br> à garder sur soi même, à portée de main. <br> Il permet d’enregistrer un son <br> rapidement en restant appuyer. <br> Le son se synchronise dans la bibliothèque<br>sonore de l’application."
   },
 
   {
