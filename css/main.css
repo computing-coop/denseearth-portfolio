@@ -38,6 +38,11 @@ body {
 
 }
 
+.p{
+
+
+}
+
 
 
 
@@ -55,6 +60,7 @@ body {
   position: fixed;
   margin: 0 auto;
   width: 100%;
+  margin-top: 25px;
 
 }
 
@@ -147,6 +153,7 @@ body {
     color: black;
     z-index: 600;
     display: inline-block;
+
 
 }
 
@@ -270,6 +277,7 @@ color: #FF0601;
     left: 0;
     width: 900px;
     vertical-align: top;
+
 }
 
 .modal {
@@ -362,6 +370,8 @@ color: #FF0601;
 
 @media screen and (max-width: 600px) {
 
+
+
 .iyo{
 visibility: hidden;
 color: #49E66B;
@@ -380,6 +390,7 @@ color: #49E66B;
         max-width: 100%;
         max-height: 70vh;
         transform: translate(0, 0);
+
     }
 
     .object img {
