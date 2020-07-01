@@ -1,11 +1,29 @@
 [
 
+  {
+      "titre": "etiquettes_laCoudraie",
+      "id": "etiquettes_laCoudraie",
+      "image": "illu/etiquettes_laCoudraie.jpg",
+      "height": "600px",
+      "top":"20px",
+      "description":""
+  },
+  {
+      "titre": "etiquettes_laCoudraie",
+      "id": "etiquettes_laCoudraie",
+      "image": "illu/etiquettes_laCoudraie_chatounette2.jpg",
+      "height": "330px",
+      "marginLeft":"-170px",
+      "top":"350px",
+      "description":""
+  },
 
   {
       "titre": "collage noir blanc",
       "id": "collage noir blanc",
       "image": "illu/collage_1.png",
       "height": "350px",
+      "marginLeft":"300px",
       "top":"330px",
       "description":""
   },

@@ -1,4 +1,69 @@
 [
+
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_1.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Varanasi, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_2.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Allepey, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_3.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Chennai, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_4.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Mumbai, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_5.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Mumbai, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_6.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Mumbai, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_7.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Gangtok, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "inde",
+      "image": "pho/Inde_8.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Varanasi, Inde <br>2020"
+  },
   {
       "titre": "COLLECTION",
       "id": "photo",
