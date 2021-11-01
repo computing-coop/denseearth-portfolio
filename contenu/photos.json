@@ -3,15 +3,15 @@
   {
       "titre": "COLLECTION",
       "id": "SaldaLakeSpirit_01",
-      "image": "pho/SaldaLakeSpirit_01.jpg",
+      "image": "pho/saldaLakeSpirit_01.jpg",
       "height": "650px",
       "top": "70px",
-      "description":"Salda Lake, Turkey <br>2021"
+      "description":"salda Lake, Turkey <br>2021"
   },
   {
       "titre": "COLLECTION",
       "id": "SaldaLakeSpirit_02",
-      "image": "pho/SaldaLakeSpirit_02.jpg",
+      "image": "pho/saldaLakeSpirit_02.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Salda Lake, Turkey <br>2021"
