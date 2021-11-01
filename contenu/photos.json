@@ -3,7 +3,7 @@
   {
       "titre": "COLLECTION",
       "id": "SaldaLakeSpirit_01",
-      "image": "pho/saldaLakeSpirit_01.jpg",
+      "image": "pho/salda_1.jpg",
       "height": "650px",
       "top": "70px",
       "description":"salda Lake, Turkey <br>2021"
@@ -11,7 +11,7 @@
   {
       "titre": "COLLECTION",
       "id": "SaldaLakeSpirit_02",
-      "image": "pho/saldaLakeSpirit_02.jpg",
+      "image": "pho/salda_2.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Salda Lake, Turkey <br>2021"
@@ -19,7 +19,7 @@
   {
       "titre": "COLLECTION",
       "id": "SaldaLakeSpirit_03",
-      "image": "pho/saldaLakeSpirit_03.jpg",
+      "image": "pho/salda_3.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Salda Lake, Turkey <br>2021"
@@ -27,7 +27,7 @@
   {
       "titre": "COLLECTION",
       "id": "SaldaLakeSpirit_05",
-      "image": "pho/saldaLakeSpirit_05.jpg",
+      "image": "pho/salda_4.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Salda Lake, Turkey <br>2021"
@@ -85,7 +85,7 @@
   {
       "titre": "COLLECTION",
       "id": "Inde_briques",
-      "image": "pho/Inde_briques.jpg",
+      "image": "pho/brique.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Gokarna, Inde <br>2020"
@@ -93,7 +93,7 @@
   {
       "titre": "COLLECTION",
       "id": "Inde_maison",
-      "image": "pho/Inde_maison.jpg",
+      "image": "pho/maison.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Gokarna, Inde <br>2020"
