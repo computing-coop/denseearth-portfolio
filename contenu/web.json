@@ -1,0 +1,122 @@
+[
+
+
+  {
+      "titre": "My thesis",
+      "id": "tapis volant",
+      "video": "web/tapis.mp4",
+      "width": "800px",
+      "top": "150px",
+      "right": "100px",
+      "left": "150px",
+      "description":"INTERNET FLIGHTING CARPET <br> bachelor thesis<br>2019 <br><br>Research on the creation of the internet, <br>and the utopias that it has given rise to.<br>I question what it generates<br>in terms of objects and spaces in our lives.<br>My thesis took the form of a carpet<br>in reference to the flying carpet evoked <br>by Michel Foucault. "
+  },
+
+  {
+      "titre": "Vibrant gap year",
+      "id": "Vibrant gap year",
+      "video": "web/vibrantgapyear.mp4",
+      "width": "800px",
+      "top": "150px",
+      "right": "100px",
+      "left": "150px",
+      "description":"WEBSITE FOR A COACHING <br> GAP YEAR COMPANY<br>2021 <br><br>Web implementation<br> UX/UI<br>Wordpress<br> ",
+      "url": "https://vibrantgapyear.com/"
+  },
+
+  {
+      "titre": "Web site 1",
+      "id": "Laurence Bachelier site",
+      "video": "web/laurence.mp4",
+      "width": "800px",
+      "top": "150px",
+      "right": "100px",
+      "left": "150px",
+      "description":"WEBSITE FOR A PSYCHOLOGIST<br>2021 <br><br>Visual identity <br> UX/UI<br>Wordpress<br>Help for web tools",
+      "url": "https://www.laurence-bachelier.com/"
+  },
+
+  {
+      "titre": "carte visite bruno1",
+      "id": "carte visite bruno1",
+      "video": "web/cartebruno_2.mp4",
+      "width": "300px",
+      "top": "500px",
+      "right": "-800px",
+      "left": "150px",
+      "description":"<br>"
+
+  },
+  {
+      "titre": "carte visite bruno2",
+      "id": "carte visite bruno2",
+      "video": "web/cartebruno_1.mp4",
+      "width": "300px",
+      "top": "150px",
+      "right": "-300px",
+      "left": "150px",
+      "description":"<br>"
+
+  },
+
+  {
+      "titre": "Web site 2",
+      "id": "Bruno Evola site",
+      "video": "web/bruno.mp4",
+      "width": "800px",
+      "top": "150px",
+      "right": "200px",
+      "left": "150px",
+      "description":"WEBSITE FOR A COACH<br>2021<br><br>Visual identity <br> UX/UI<br>Wordpress<br>Business card <br>Help for web tools",
+      "url": "https://www.brunoevola.com/"
+    },
+
+    {
+        "titre": "3D experimentation",
+        "id": "3d",
+        "video": "web/3d.mp4",
+        "width": "800px",
+        "top": "150px",
+        "right": "100px",
+        "left": "150px",
+        "description":"THREEJS EXPERIMENTATION<br>2018"
+    },
+
+    {
+        "titre": "carte visite marie",
+        "id": "carte visite marie",
+        "video": "web/cartemarie.mp4",
+        "width": "500px",
+        "top": "150px",
+        "right": "-500px",
+        "left": "150px",
+        "description":"<br>"
+
+    },
+
+    {
+        "titre": "Web site 0",
+        "id": "Marie site",
+        "video": "web/marie.mp4",
+        "width": "800px",
+        "top": "150px",
+        "right": "200px",
+        "left": "150px",
+        "description":"WEBSITE FOR AN ART THERAPIST<br>2018 <br><br>Visual identity <br>Business card <br>Flyer<br> Help for web tools",
+        "url": "https://mariebecheras.com/"
+      },
+
+
+    {
+        "titre": "Web site 3",
+        "id": "playlist",
+        "video": "desi/webmusic.mp4",
+        "width": "800px",
+        "top":"150px",
+        "right": "100px",
+        "left": "150px",
+        "description": "WEB MUSIC <br><br> UX / UI <br> Web site <br>2017<br><br> that lists my everyday listening. <br> The interface displays a zoomed in element <br> of the album cover of each song. <br> The user clicks on a visual that attracts him to choose the music <br> discovering randomly what he will listen. "
+    }
+
+
+]

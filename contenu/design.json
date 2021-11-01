@@ -7,7 +7,7 @@
       "top": "150px",
       "right": "100px",
       "left": "150px",
-      "description":"LES ECOUTEURS <br> électronique, programmation<br><br>À l’autre bout du monde, <br>quelqu’un possède le même <br>casque audio que nous,<br> et nous pouvons entendre dans son salon.<br> D’un côté, on est écouté, on le sait,<br> et de l’autre on écoute aussi. <br> Dans l’idée de regarder <br>par le trou d’une serrure, <br>une fenêtre ouverte <br>sur la vie d’un inconnu.<br>"
+      "description":"LES ÉCOUTEURS <br> electronics, programming<br><br>On the other side of the world, <br>someone has the same headphones <br> as us, and you can hear in their living room. <br> On the one hand, we are listened to, <br> we know it, and on the other hand we listen. <br>In the idea of looking through a keyhole, <br>or as a window into the life of a stranger. <br> Les écouteurs are designed  to ask us <br> about our relationship to privacy. <br> Its use also provides an opportunity <br> to escape from our daily lives."
   },
 
   {
@@ -18,7 +18,7 @@
       "top": "250px",
       "right": "200",
       "left": "150px",
-      "description":"THE SOUND OF THE LINK <br>électronique, programmation<br><br> Inspirée par la nouvelle The Camille Stories<br> écrit par Donna Haraway,<br> j’ai conçu mon projet en rapport<br> avec un futur utopique <br> dans lequel des groupes de personnes <br>s’organisent en microsociétes.<br> L’installation The Sound of the Links <br>est un fragment de cette civilisation <br> qui raconte la manière dont les Hommes <br> expérimentent la communication avec les végétaux <br>pour tenter de rebâtir une manière de vivre<br> en symbiose avec les espèces qui les entourent.<br> J’ai souhaité sensibiliser autour <br> de ces phénomènes imperceptibles <br> récemment découverts par les biologistes,<br> pour que nous puissions imaginer <br> un autre rapport au monde <br> que celui de l’exploitation."
+      "description":"THE SOUND OF THE LINK <br> electronics, programming<br> <br> Inspired by the short story The Camille Stories <br> written by Donna Haraway, <br> I conceived my project in relation <br> to a utopian future <br> in which groups of people <br> organize themselves into microsociety. <br> The installation The Sound of the Links <br> is a fragment of this civilization <br> that tells how humans <br> experiment communication with plants <br> in an attempt to rebuild a way of life <br> in symbiosis with the species that surround them.<br> I wanted to raise awareness about <br> these imperceptible phenomena <br> recently discovered by biologists,<br> so that we could imagine <br> a different relationship to the world <br> than that of exploitation."
     },
 
 
@@ -30,7 +30,7 @@
       "top":"70px",
       "right": "100",
       "left": "150px",
-      "description": "ORIGAMY CLOCK<br> creative coding<br><br>Représentation visuelle et poétique <br> du temps  qui s’écoule dans une journée. <br> Une minute, un triangle est formé,<br> une heure un agglomerat. <br> Les formes organiques déambulent <br>toute la journée dans l’espace. <br>23h59 l’espace est saturé de formes, <br> minuit, tout se vide pour repartir de rien.<br>"
+      "description":"ORIGAMY CLOCK<br> creative coding<br><br>A visual, poetic representation<br> of time that elapses in a day. <br>One minute, a triangle is formed, <br>one hour an aglomerate.<br> The organic forms <br>wander all day long in the space.<br> 23h59 the space is saturated with forms, <br>at midnight, everything is empty <br>to start from scratch."
   },
   {
       "titre": "LANDSCAPE",
@@ -38,27 +38,16 @@
       "video": "desi/sequence_eau.mp4",
       "width": "500px",
       "top":"310px",
-      "description": "LANDSCAPE <br> collaboration avec Clara Aboulker <br>et Romain Roucoules  <br><br>experimentation vidéo 3D."
-  },
+      "description":"LANDSCAPE  <br> 3D video experimentation. <br><br> collaboration with Clara Aboulker <br> and Romain Roucoules."
 
-  {
-      "titre": "INTERNET, TAPIS VOLANT ",
-      "id": "tapis",
-      "lien": "internetapisvolantdestempsmodernes.site",
-      "url": "http://internetapisvolantdestempsmodernes.site/",
-      "top":"200px",
-      "left": "-460px",
-      "right": "0px",
-      "description": "INTERNET TAPIS VOLANT <br> mémoire bachelor <br><br>Recherche sur la création d'internet, <br>et les utopies que cela a suscitées.<br>Je me questionne sur ce que cela génère<br>en termes d’objets et d’espaces dans nos vies.<br>Mon mémoire a pris la forme d'un tapis<br>en référence au tapis volant évoqué <br>par Michel Foucault. "
     },
-
   {
       "titre": "COLLECTION",
       "id": "app collection",
       "image": "desi/appcollection.jpg",
       "top":"10px",
       "height": "500px",
-      "description": "APP COLLECTION <br> électronique <br><br> Je ne peux pas ouvrir mon téléphone <br> et voir les applications que j’utilise. <br> Je les consomme, en sachant peu <br> sur leur fonctionnement. <br> Leur gratuité  et instantanéité  <br> ne sont pas satisfaisantes. <br> Qu'il y a-t-il donc dans cette boite ? <br> Je décide de donner une matérialité <br> à quelques fonctions de mon téléphone <br> - la lampe, le mp3, la boussole - <br> rendre hardware ce qui était sofware, <br> dans le format de mon smartphone, <br> et non la forme de leur ancienne identité d’objet. "
+      "description": "APP COLLECTION <br> electronics <br> <br> I can't open my phone <br> and see all the apps I’m using. <br>  I consume them, knowing little <br> about how they work. <br> Their free and instantaneous nature <br> are not satisfactory. <br> So what's inside the box? <br>  I decide to give a materiality <br> to some functions of my phone <br> - the lamp, the mp3, the compass - <br> to make hardware what was sofware, <br> in the format of my smartphone, <br> and not the form of their old object identity."
   },
 
   {
@@ -68,21 +57,10 @@
       "width": "550px",
       "top":"300px",
       "right": "100px",
-      "description": "FREE$PEECH<br>collaboration avec<br>Alfatih Al Zouabi et Sani Irsay<br> object connecté, électronique, programmation<br><br>Free $peech, c'est deux téléphones<br>qui permettent de traduirent<br>des conversations d’une langue à l'autre.<br>Cependant, tout ce qui est dit<br>est directement twitté.<br>Vous avez alors le choix :<br>introduire une pièce pour une phrase <br> qui sera confidentielle.<br><br>Nous avons réfléchi aux notions<br>de privacité sur le web, et de collecte de données.<br>Quelle main avons-nous sur nos informations <br>à l’heure où de plus en plus de services<br>sont prétendus gratuit ?"
+      "description": "FREE$PEECH <br>with Alfatih Al Zouabi and Sani Irsay<br> object connected, electronic, programming <br><br> Free $peech, are two phones<br>that allow to translate conversations <br>from one language to another.<br>However, everything that is said<br>is directly twitt. You then have <br>the choice: introduce a piece <br>for a confidential sentence.<br>We have thought about the notions <br> of privacy on the web, and data collection.<br>What control do we have over <br>our information when more and more <br> services are claimed free ?"
 
     },
 
-
-  {
-      "titre": "SPACE PICTURE",
-      "id": "space",
-      "lien": "spacepicture.space",
-      "url": "https://spacepicture.space",
-      "top":"120px",
-      "left": "-460px",
-      "description": "SPACE PICTURE <br> exercice de programmation en three.js <br> <br> découpage d’une image appliqué<br>à des formes en mouvement. <br> L’espace en 3d permet <br> de se déplacer dans l’espace <br> avec la souris ou le gyroscope <br> du telephone."
-
-  },
 
 
 
@@ -92,7 +70,7 @@
     "video": "desi/kadavresky.mp4",
     "width": "300px",
     "top":"300px",
-    "description": "KADAVRESKY <br>vidéo 3D, réalité virtuelle<br>musique : Eliya<br><br>J’ai créée un espace irréel et immersif.<br> Un lieu infini, en suspension dans les airs.<br>Une galerie virtuelle dont les propriétés <br>sont possibles grace à ce type de visualisation.<br><br>un clique sur la video pour <br>la visualiser sur vimeo en 360°.",
+    "description": "KADAVRESKY <br>3D video, virtual reality<br>music: Eliya<br><br>I created an unreal and immersive space.<br>An infinite place, suspended in the air.<br>A virtual gallery whose <br>properties are possible thanks to this type of visualization.<br><br>a click on the video to <br>view it on vimeo in 360°.",
     "url": "https://vimeo.com/258964410"
 },
 
@@ -103,18 +81,10 @@
     "video": "desi/revmo.mp4",
     "width": "500px",
     "top":"100px",
-    "description": "RAW MUSIC <br> UX / UI <br><br> Raw est une application<br>connectée à un enregistreur audio. <br> L’objet est un petit bouton <br> à garder sur soi même, à portée de main. <br> Il permet d’enregistrer un son <br> rapidement en restant appuyer. <br> Le son se synchronise dans la bibliothèque<br>sonore de l’application."
-  },
-
-  {
-      "titre": "MY PERSONAL PICTURES",
-      "id": "pp",
-      "lien": "mypersonal💻👀mypersonal📷",
-      "url": "https://xn--mypersonalmypersonal-5g70tkxc0vb.ws",
-      "left": "-460px",
-      "top": "400px",
-      "description": "MY PERSONAL PICTURES <br>  Exercice de programmation <br> <br>Que comprend mon ordinateur de mes photos ?  <br>  Il va analyser un groupe de pixel, ainsi on peut <br>  lire ma photo à travers les mots qu’il aura définis. <br> L’image final est visible au bout d’un nombre de click. "
+    "description": "RAW MUSIC <br> UX / UI <br><br>Raw is an application<br>connected to an audio recorder. <br> The object is a small button <br> to keep on yourself, within easy reach. <br> It allows you to record a sound <br> quickly by staying pressed. <br> The sound synchronizes in the library<br>sound of the application."
     },
+
+
 
   {
       "titre": "GLADIS",
@@ -124,16 +94,7 @@
       "top": "400px",
       "right": "100",
       "left": "150px",
-      "description":"GLADIS <br> electronique, programmation <br> <br> Gladis est une intelligence artificielle. <br>Elle propose d’enregistrer des messages <br> vocaux et de les verrouiller par une photo <br> que l’on prend dans l’instant. <br> Un répondeur de ville qui permet d’imaginer <br> une autre communication. "
-    },
-
-    {
-        "titre": "PLAYLIST",
-        "id": "playlist",
-        "video": "desi/webmusic.mp4",
-        "width": "500px",
-        "top":"100px",
-        "description": "PLAYLIST<br> UX / UI <br><br> Un site qui répertorie<br>chaque jour mes écoutes. <br>L’interface affiche un zoom <br> de chaque pochettes d’albums. <br> L’utilisateur clique sur une image <br> sans savoir le titre qu'il écoutera.<br>"
+      "description":"GLADIS <br> electronics, programming <br> <br> Gladis is an artificial intelligence. <br>She proposes to record voice <br> messages and lock them with a photo <br> that you take in the moment. <br> A city voice mailbox that allows <br> you to imagine another communication .<br> in the city. "
     }
 
 

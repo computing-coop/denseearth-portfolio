@@ -1,10 +1,58 @@
 [
 
+
+  {
+      "titre": "culotte4",
+      "id": "culotte4",
+      "image": "illu/culotte4.jpg",
+      "height": "200px",
+      "top":"0px",
+      "left":"500px",
+      "marginLeft":"-170px",
+      "description":""
+  },
+  {
+      "titre": "culotte3",
+      "id": "culotte3",
+      "image": "illu/culotte3.jpg",
+      "height": "600px",
+      "top":"100px",
+      "marginLeft":"-200px",
+      "description":""
+  },
+  {
+      "titre": "culotte2",
+      "id": "culotte2",
+      "image": "illu/culotte2.jpg",
+      "height": "400px",
+      "top":"20px",
+      "marginLeft":"-270px",
+      "description":""
+  },
+  {
+      "titre": "culotte1",
+      "id": "culotte1",
+      "image": "illu/culotte1.jpg",
+      "height": "300px",
+      "top":"200px",
+      "marginLeft":"-230px",
+      "description":""
+  },
+  {
+      "titre": "dharmapur",
+      "id": "dharmapur",
+      "image": "illu/dharmapur.jpg",
+      "height": "330px",
+      "marginLeft":"300px",
+      "top":"200px",
+      "description":""
+  },
   {
       "titre": "etiquettes_laCoudraie",
       "id": "etiquettes_laCoudraie",
       "image": "illu/etiquettes_laCoudraie.jpg",
       "height": "600px",
+      "marginLeft":"300px",
       "top":"20px",
       "description":""
   },

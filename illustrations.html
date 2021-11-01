@@ -19,23 +19,24 @@
 <body class="scroller">
     <!--    bulle d'informations-->
     <header>
-        <div class="mail" style="cursor: pointer;"><video class="vide" id="video" style=" width:40%">
-                <source src="img/mail.mp4" type="video/mp4">
-            </video>
-        </div>
+
         <div>
             <a href="index.html" class="title" style="cursor: pointer;">Diane Bécheras</a>
-            <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires, j’écris,<br>dessine,  construit et photographie.<br>Artiste Designer.<br><br>
-              <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
-              <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
+            <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">
             </div>
         </div>
+
+
     </header>
-    <div class="navCategorie">
-  <a href="design.html">Design</a>
-  <a style="color:#FF0601">Illustration</a>
-  <a href="photos.html">Photo</a>
-</div>
+
+      <div class="navCategorie">
+        <a href="web.html"  >Web design</a>
+        <a href="design.html" >Speculative design</a>
+        <a style="color:#FF0601" >Illustration</a>
+        <a href="photos.html" >Photography</a>
+        <a href="index.html" >Contact</a>
+      </div>
+
     <div class="menu" id="menu" onclick="settop()">
     </div>
     <div id="biographieA">
@@ -43,6 +44,7 @@
     </div>
     <div class="projects" id="projects">
     </div>
+    
 </body>
 
 </html>
@@ -175,15 +177,14 @@ $("body").mousewheel(function(event, delta) {
 })
 
 for (let i = 0; i < content.length; i++) {
-    if ((i == 0) && (window.innerWidth < 600)) {
+  /*  if ((i == 0) && (window.innerWidth < 600)) {
         let container = document.createElement('div');
         container.innerHTML = '<a class="block" onclick="allerauprojet()">Infos</a>';
         let div = container.firstChild;
        // document.querySelector(".menu").appendChild(div);
        let divo = document.querySelector(".navCategorie").firstChild;
     document.querySelector(".navCategorie").insertBefore(div, divo);
-    }
-
+  } */
     let container = document.createElement('div');
     container.innerHTML = '<a class="block" onclick="allerauprojet(this.id)"></a>';
 

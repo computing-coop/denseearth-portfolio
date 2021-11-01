@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "LiberationSerif";
-    src: url('typo/LiberationSerif.ttf');
+    font-family: "LiberationSans-Bold";
+    src: url('typo/LiberationSans-Bold.ttf');
 }
 
 @font-face {
-    font-family: "LiberationSans";
-    src: url('typo/LiberationSans-Regular.ttf');
+    font-family: "LiberationSans-BoldItalic";
+    src: url('typo/LiberationSans-BoldItalic.ttf');
 }
 
 @font-face {
@@ -14,15 +14,27 @@
 }
 
 @font-face {
-    font-family: "LiberationSans-Bold";
-    src: url('typo/LiberationSans-Bold.ttf');
+    font-family: "LiberationSans-Regular";
+    src: url('typo/LiberationSans-Regular.ttf');
 }
 
+@font-face {
+    font-family: "LiberationSerif-Bold";
+    src: url('typo/LiberationSerif-Bold.ttf');
+}
+
+@font-face {
+    font-family: "LiberationSerif-BoldItalic";
+    src: url('typo/LiberationSerif-BoldItalic.ttf');
+}
 @font-face {
     font-family: "LiberationSerif-Italic";
     src: url('typo/LiberationSerif-Italic.ttf');
 }
-
+@font-face {
+    font-family: "LiberationSerif-Regular";
+    src: url('typo/LiberationSerif-Regular.ttf');
+}
 
 
 
@@ -32,11 +44,14 @@ body {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'LiberationSerif-Italic';
+    font-family: 'LiberationSerif';
     overflow: auto;
-    color:#FF0601;
+    color:white;
+  background-color: #DBE1D6;
+
 
 }
+
 
 .p{
 
@@ -53,14 +68,30 @@ body {
 
 
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+
 .center {
-  font-size: 7vw;
-  text-align: center;
+  font-size: 2.5vw;
+  text-align:right;
   overflow: hidden;
   position: fixed;
-  margin: 0 auto;
-  width: 100%;
-  margin-top: 25px;
+  width: 98%;
+  margin-top: 15%;
+  z-index: 10;
+
+
+
+}
+
+.contact:hover{
+text-decoration: underline;
 
 }
 
@@ -79,11 +110,12 @@ body {
 
 .iyo{
   font-family: 'LiberationSans-Bold';
-  font-size: 12px;
-  color: #49E66B;
+  font-size: 14px;
+  color: #50814F;
   position: fixed;
-  left: 1vh;
+  left: 1.5vh;
   bottom: -1vh;
+  visibility: hidden;
 
 }
 
@@ -99,8 +131,8 @@ body {
     position: fixed;
     right: 2vh;
     top: 2.3vh;
-    font-size: 20px;
-    color: black;
+    font-size: 30px;
+    color: white;
     font-family: 'LiberationSerif-Bold';
     z-index: 50;
 }
@@ -108,10 +140,10 @@ body {
 .title1{
   text-transform: uppercase;
   position: fixed;
-  right: 2vh;
-  top: 2.3vh;
-  font-size: 20px;
-  color: black;
+  right: 3vh;
+  top: 3vh;
+  font-size: 30px;
+  color: white;
   font-family: 'LiberationSerif-Bold';
   z-index: 50;
 
@@ -144,14 +176,15 @@ body {
     transition: 0.5s;
     transform: translate(-50%, 0);
 
+
 }
 
 
 .block {
     cursor: pointer;
     text-decoration: none;
-    color: black;
-    z-index: 600;
+    color: white;
+    z-index: 50;
     display: inline-block;
 
 
@@ -171,9 +204,11 @@ body {
     transform: translate(-50%);
     bottom: 10px;
     top: unset;
-    color: black;
+    color: white;
     z-index: 8;
-    font-size: 12px;
+    font-size: 3vh;
+    margin: 5vh;
+
 
 }
 
@@ -185,8 +220,9 @@ body {
     position: absolute;
     z-index: 300;
     display: block;
-    left: 2vh;
-    top: 9vh;
+    left: 3vh;
+    top: 3vh;
+    font-size: 4.5vh;
 }
 
 
@@ -194,7 +230,7 @@ body {
 .navCategorie a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'LiberationSans-Bold';
 
 }
@@ -207,14 +243,16 @@ color: #FF0601;
     position: absolute;
     z-index: 300;
     display: block;
-    left: 2vh;
-    top: 9vh;
+    left: 3vh;
+    top: 3vh;
+    font-size: 4.5vh;
+
 }
 
 .navCategorieBig a {
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'LiberationSans-Bold';
 
 }
@@ -263,11 +301,13 @@ color: #FF0601;
     text-align: center;
     margin-left: 40px;
     cursor: pointer;
+    background-color: blue;
 
 }
 
 #biographieA {
     display: none;
+
 }
 
 .object video {
@@ -287,7 +327,7 @@ color: #FF0601;
     position: fixed;
     /* Stay in place */
     z-index: 1;
-    font-size: 15px;
+    font-size: 20px;
     top: 0;
     /* Sit on top */
     left: 15vw;
@@ -309,6 +349,7 @@ color: #FF0601;
     text-align: left;
     font-family: 'LiberationSerif-Italic';
     font-size: 12px;
+    z-index: 50;
 
 
 }
@@ -368,13 +409,40 @@ color: #FF0601;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  #myVideo {
+width: 140%;
+
+  }
+}
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
 
 
+  #myVideo {
+display: none;
+
+  }
+
+
 .iyo{
 visibility: hidden;
-color: #49E66B;
+color: #2F861C;
 
 }
   .center {
@@ -415,20 +483,23 @@ color: #49E66B;
     #biographieA {
         display: block;
         width: 100%;
-        height: 90%;
+        height: 0%;
+        z-index: 500;
+
     }
 
     #biographieB {
 
       text-align: center;
       width: 100%;
-      margin-top: 50%;
-      margin-right: -2vh;
+      margin-top: 20%;
+      margin-left: 2px;
       transform: none;
       text-decoration: none;
-      color: #FF0601;
+      color: white;
       float: right;
-      font-size: 20px;
+      font-size: 22px;
+      z-index: 500;
 
     }
 
@@ -443,6 +514,7 @@ color: #49E66B;
         margin-top: 4vh;
         display: none;
     }
+
 
     .point {
         display: none;
@@ -472,6 +544,7 @@ color: #49E66B;
         margin-left: 0;
         margin-bottom: 2vh;
         opacity: 1;
+        z-index: 50;
 
     }
 
@@ -505,11 +578,27 @@ color: #49E66B;
 
     .navCategorie {
         top: 3vh;
+        left: 3vh;
+        font-size: 3vh;
     }
 
     .navCategorieBig {
       top: 3vh;
+      font-size: 3vh;
+      left:3vh;
     }
+
+    .title{
+      visibility: hidden;
+    }
+
+    .title1{
+      visibility: hidden;
+    }
+
+
+
+
 
 
 }

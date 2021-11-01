@@ -19,16 +19,11 @@
     <body>
         <!--    bulle d'informations-->
         <header>
-            <div class="mail" style="cursor: pointer;"><video class="vide" id="video" style=" width:40%">
-                    <source src="img/mail.mp4" type="video/mp4">
-                </video>
-            </div>
+
 
             <div>
                 <a href="index.html" class="title" style="cursor: pointer;">Diane Bécheras</a>
-                <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">J’imagine des histoires, j’écris,<br>dessine,  construit et photographie.<br>Artiste Designer.<br><br>
-                  <a href='mailto:diane.becheras@icloud.com' style="color:#FF0601; text-decoration: none">diane.becheras@icloud.com</a> <br>
-                  <a href="https://www.instagram.com/dianebecheras/" target="_blank" style="color:#FF0601; text-decoration: none" >@dianebecheras</a>
+                <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">
                 </div>
             </div>
 
@@ -37,6 +32,7 @@
 
  <!-- **************** -->
         <div class="ol-modal ol-beh-fade">
+
            <style>
 
                    @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
@@ -55,17 +51,18 @@
 
 
                    .modal-interstitial {
+                     opacity: 0.9;
                      animation :fade;
                      align-items: center;
-                     color: #2D26FF;
+                     color: white;
                      animation-duration: 900ms;
                      animation-iteration-count: 1;
                      animation-name: fadeIn;
-                     background-color: #8F94FF;
+                     background-color: #DBE1D6;
                      border-radius: 1px;
                      box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.15);
                      display: grid;
-                     font-family: 'LiberationSans-Italic', sans-serif;
+                     font-family: 'LiberationSans-Italic';
                      grid-auto-flow: row;
                      max-width: 380px;
                      min-width: 180px;
@@ -74,7 +71,9 @@
                      padding: 24px;
                      text-align: center;
                      z-index: 9999;
-                     opacity: 0.97;
+                     opacity: 0.95;
+                     border: 1px solid #FF0601;
+                     border-radius: 10px;
 
                    }
 
@@ -165,7 +164,7 @@
                      direction: ltr;
                      display: inline-block;
                      font-family: 'Material Icons', sans-serif;
-                     color: #2D26FF;
+                     color: white;
                      font-size: 24px;
                      font-style: normal;
                      font-weight: normal;
@@ -205,7 +204,7 @@
              </div>
 
              <div class="modal-interstitial-label">
-               <span class="modal-interstitial-label-description"> ☛ Laissez la souris sur la video pour activer le son ! </span>
+               <span class="modal-interstitial-label-description"> ☛ Leave the mouse on the video to activate the sound ! </span>
              </div>
 
 
@@ -215,10 +214,13 @@
 
 
 
+
         <div class="navCategorie">
-            <a style="color:#FF0601">Design</a>
-            <a href="illustrations.html">Illustration</a>
-            <a href="photos.html">Photo</a>
+          <a href="web.html"  >Web design</a>
+          <a style="color:#FF0601" >Speculative design</a>
+          <a href="illustrations.html" >Illustration</a>
+          <a href="photos.html" >Photography</a>
+          <a href="index.html" class="contacthide">Contact</a>
         </div>
 
         <div class="menu" id="menu" onclick="settop()">
@@ -375,14 +377,14 @@
     })
 
     for (let i = 0; i < content.length; i++) {
-        if ((i == 0) && (window.innerWidth < 600)) {
+        /*if ((i == 0) && (window.innerWidth < 600)) {
             let container = document.createElement('div');
-            container.innerHTML = '<a class="block" onclick="allerauprojet()">Infos</a>';
+            container.innerHTML = '<a class="block" onclick="allerauprojet()">Contact</a>';
             let div = container.firstChild;
            // document.querySelector(".menu").appendChild(div);
            let divo = document.querySelector(".navCategorie").firstChild;
         document.querySelector(".navCategorie").insertBefore(div, divo);
-        }
+      }*/
 
         let container = document.createElement('div');
         container.innerHTML = '<a class="block" onclick="allerauprojet(this.id)"></a>';

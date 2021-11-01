@@ -2,6 +2,113 @@
 
   {
       "titre": "COLLECTION",
+      "id": "SaldaLakeSpirit_01",
+      "image": "pho/SaldaLakeSpirit_01.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Salda Lake, Turkey <br>2021"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "SaldaLakeSpirit_02",
+      "image": "pho/SaldaLakeSpirit_02.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Salda Lake, Turkey <br>2021"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "SaldaLakeSpirit_03",
+      "image": "pho/SaldaLakeSpirit_03.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Salda Lake, Turkey <br>2021"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "SaldaLakeSpirit_05",
+      "image": "pho/SaldaLakeSpirit_05.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Salda Lake, Turkey <br>2021"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "feu",
+      "image": "pho/feu.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Bodrum, Turkey <br>2021"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "feu2",
+      "image": "pho/feu2.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Bodrum, Turkey <br>2021"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "arbrevisage",
+      "image": "pho/arbrevisage.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Fethiye, Turkey <br>2020"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "arbres",
+      "image": "pho/arbres.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Fethiye, Turkey <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "nature",
+      "image": "pho/nature.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"La coudraie, France <br>2020"
+  },
+  {
+      "titre": "Dharmapur",
+      "id": "dharmapur",
+      "video": "pho/dharmapur.mp4",
+      "height": "1050px",
+      "top": "130px",
+      "description":"Whorshop Dharmapur <Br> Fethiye, Turkey<Br> 2021"
+  },
+
+  {
+      "titre": "COLLECTION",
+      "id": "Inde_briques",
+      "image": "pho/Inde_briques.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Gokarna, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "Inde_maison",
+      "image": "pho/Inde_maison.JPG",
+      "height": "650px",
+      "top": "70px",
+      "description":"Gokarna, Inde <br>2020"
+  },
+  {
+      "titre": "COLLECTION",
+      "id": "Inde_singes",
+      "image": "pho/Inde_singes.jpg",
+      "height": "650px",
+      "top": "70px",
+      "description":"Varanasi, Inde <br>2020"
+  },
+
+  {
+      "titre": "COLLECTION",
       "id": "inde",
       "image": "pho/Inde_1.jpg",
       "height": "650px",
