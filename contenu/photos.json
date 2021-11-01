@@ -43,7 +43,7 @@
   {
       "titre": "COLLECTION",
       "id": "feu2",
-      "image": "pho/feu2.jpg",
+      "image": "pho/lefeu.jpg",
       "height": "650px",
       "top": "70px",
       "description":"Bodrum, Turkey <br>2021"
@@ -68,7 +68,7 @@
   {
       "titre": "COLLECTION",
       "id": "nature",
-      "image": "pho/nature.jpg",
+      "image": "pho/lanature.jpg",
       "height": "650px",
       "top": "70px",
       "description":"La coudraie, France <br>2020"
