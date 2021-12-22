@@ -140,7 +140,7 @@ text-decoration: underline;
 .title1{
   text-transform: uppercase;
   position: fixed;
-  right: 3vh;
+  left: 5vh;
   top: 3vh;
   font-size: 30px;
   color: white;
