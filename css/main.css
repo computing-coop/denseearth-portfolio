@@ -14,8 +14,8 @@
 }
 
 @font-face {
-    font-family: "LiberationSans-Regular";
-    src: url('typo/LiberationSans-Regular.ttf');
+    font-family: "Millimetre-Regular";
+    src: url('typo/Millimetre-Regular.ttf');
 }
 
 @font-face {
@@ -32,8 +32,8 @@
     src: url('typo/LiberationSerif-Italic.ttf');
 }
 @font-face {
-    font-family: "LiberationSerif-Regular";
-    src: url('typo/LiberationSerif-Regular.ttf');
+    font-family: "Karrik-Regular";
+    src: url('typo/Karrik-Regular.ttf');
 }
 
 
@@ -44,10 +44,10 @@ body {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'LiberationSerif';
+    font-family: 'Arial';
     overflow: auto;
-    color:white;
-  background-color: #DBE1D6;
+    color:#1e1e1e;
+  background-color: #f1f1f1;
 
 
 }
@@ -109,7 +109,7 @@ text-decoration: underline;
 
 
 .iyo{
-  font-family: 'LiberationSans-Bold';
+  font-family: 'Arial';
   font-size: 14px;
   color: #50814F;
   position: fixed;
@@ -132,25 +132,25 @@ text-decoration: underline;
     right: 2vh;
     top: 2.3vh;
     font-size: 30px;
-    color: white;
-    font-family: 'LiberationSerif-Bold';
+    color: #1f1f1f;
+    font-family: 'Karrik-Regular';
     z-index: 50;
 }
 
 .title1{
   text-transform: uppercase;
   position: fixed;
-  left: 5vh;
+  left: 3vh;
   top: 3vh;
   font-size: 30px;
-  color: white;
-  font-family: 'LiberationSerif-Bold';
+  color: #1f1f1f;
+  font-family: 'Karrik-Regular';
   z-index: 50;
 
 }
 
 .title:hover {
-    color: #FF0601;
+    color: #CA522E;
 }
 
 .mail {
@@ -172,7 +172,7 @@ text-decoration: underline;
     position: fixed;
     left: 15%;
     top: 2vh;
-    color: #FF0601;
+    color: #CA522E;
     transition: 0.5s;
     transform: translate(-50%, 0);
 
@@ -183,7 +183,7 @@ text-decoration: underline;
 .block {
     cursor: pointer;
     text-decoration: none;
-    color: white;
+    color: #EAEBE3;
     z-index: 50;
     display: inline-block;
 
@@ -204,7 +204,7 @@ text-decoration: underline;
     transform: translate(-50%);
     bottom: 10px;
     top: unset;
-    color: white;
+    color: #1e1e1e;
     z-index: 8;
     font-size: 3vh;
     margin: 5vh;
@@ -230,13 +230,13 @@ text-decoration: underline;
 .navCategorie a {
     display: block;
     text-decoration: none;
-    color: white;
-    font-family: 'LiberationSans-Bold';
+    color: #1e1e1e;
+    font-family: 'Arial';
 
 }
 
 .navCategorie a:hover {
-color: #FF0601;
+color: #CA522E;
 }
 
 .navCategorieBig {
@@ -244,7 +244,7 @@ color: #FF0601;
     z-index: 300;
     display: block;
     left: 3vh;
-    top: 3vh;
+    top: 10vh;
     font-size: 4.5vh;
 
 }
@@ -252,13 +252,13 @@ color: #FF0601;
 .navCategorieBig a {
     display: block;
     text-decoration: none;
-    color: white;
-    font-family: 'LiberationSans-Bold';
+    color: #1e1e1e;
+    font-family: 'Arial;
 
 }
 
 .navCategorieBig a:hover {
-color: #FF0601;
+color: #CA522E;
 }
 
 .projects {
@@ -331,7 +331,7 @@ color: #FF0601;
     top: 0;
     /* Sit on top */
     left: 15vw;
-    background-color: white;
+    background-color: #EAEBE3;
     height: 100%;
     width: calc(100% - 15vw);
 }
@@ -347,7 +347,7 @@ color: #FF0601;
     cursor: default;
     opacity: 0;
     text-align: left;
-    font-family: 'LiberationSerif-Italic';
+    font-family: 'Arial';
     font-size: 12px;
     z-index: 50;
 
@@ -376,7 +376,7 @@ color: #FF0601;
     font-size: 35px;
     text-decoration: none;
     color: #49E66B;
-    font-family: 'LiberationSans-Bold';
+    font-family: 'Karrik-Regular';
 
 }
 
@@ -496,7 +496,7 @@ color: #2F861C;
       margin-left: 2vh;
       transform: none;
       text-decoration: none;
-      color: white;
+      color: #EAEBE3;
       float: right;
       font-size: 22px;
       z-index: 500;
