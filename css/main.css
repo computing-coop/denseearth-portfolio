@@ -44,7 +44,7 @@ body {
     height: 100%;
     margin: 0;
     scroll-behavior: smooth;
-    font-family: 'Arial';
+    font-family: 'Helvetica';
     overflow: auto;
     color:#1e1e1e;
   background-color: #f1f1f1;
@@ -109,7 +109,7 @@ text-decoration: underline;
 
 
 .iyo{
-  font-family: 'Arial';
+  font-family: 'Helvetica';
   font-size: 14px;
   color: #50814F;
   position: fixed;
@@ -222,7 +222,8 @@ text-decoration: underline;
     display: block;
     left: 3vh;
     top: 3vh;
-    font-size: 4.5vh;
+    font-size: 3vh;
+    text-transform: capitalize;
 }
 
 
@@ -231,7 +232,7 @@ text-decoration: underline;
     display: block;
     text-decoration: none;
     color: #1e1e1e;
-    font-family: 'Arial';
+    font-family: 'Helvetica';
 
 }
 
@@ -245,15 +246,17 @@ color: #CA522E;
     display: block;
     left: 3vh;
     top: 10vh;
-    font-size: 4.5vh;
+    font-size: 3vh;
+    text-transform: capitalize;
 
 }
 
 .navCategorieBig a {
     display: block;
     text-decoration: none;
+    text-transform: capitalize;
     color: #1e1e1e;
-    font-family: 'Arial;
+    font-family: 'Helvetica';
 
 }
 
