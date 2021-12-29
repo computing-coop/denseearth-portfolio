@@ -350,7 +350,7 @@ color: #CA522E;
     cursor: default;
     opacity: 0;
     text-align: left;
-    font-family: 'Arial';
+    font-family: 'Helvetica';
     font-size: 12px;
     z-index: 50;
 
@@ -442,12 +442,6 @@ display: none;
 
   }
 
-
-.iyo{
-visibility: hidden;
-color: #2F861C;
-
-}
   .center {
   display: none;
 
@@ -599,9 +593,82 @@ color: #2F861C;
       visibility: hidden;
     }
 
+    .off-canvas {
+        position: relative;
+        grid-column: 1/2;
+        grid-row: 2/3;
+          z-index: 10;
+          transform: translateX(calc(-110%));
+          transition: transform 1.5s ease;
+    }
 
-
-
-
+    .info {
+        position: absolute;
+        background-color: #ffffff;
+        padding: 0.35rem 0.5rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .open {
+        transform: 0;
+        transition: transform 1.5s ease;
+        cursor: pointer;
+    }
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  .small-text {
+    font-size: 0.9rem;
+  }
 
 }

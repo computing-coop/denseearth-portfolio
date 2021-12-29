@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <title>Romance Office - ABOUT</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+        <script src='js/jquery.min.js'></script>
+        <script src='js/jquery.mousewheel.min.js'></script>
+    </head>
+
+    <body>
+        <!--    bulle d'informations-->
+        <header>
+
+
+            <div>
+                <a href="index.html" class="title" style="cursor: pointer;">Romance Office</a>
+                <div id="biographie" class="text" style="display: block; transform: translate(0,0); width: 70vw">
+                </div>
+            </div>
+
+
+        </header>
+
+ <!-- **************** -->
+        <div class="ol-modal ol-beh-fade">
+
+           <style>
+
+                   @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+                   @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+                   @keyframes fadeIn {
+                     from {
+                       opacity: 0;
+                     }
+                     to {
+                       opacity: 1;
+                     }
+                   }
+
+
+
+
+                   .modal-interstitial {
+                     opacity: 0.9;
+                     animation :fade;
+                     align-items: center;
+                     color: white;
+                     animation-duration: 900ms;
+                     animation-iteration-count: 1;
+                     animation-name: fadeIn;
+                     background-color: #DBE1D6;
+                     border-radius: 1px;
+                     box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.15);
+                     display: grid;
+                     font-family: 'LiberationSans-Italic';
+                     grid-auto-flow: row;
+                     max-width: 380px;
+                     min-width: 180px;
+                     overflow: hidden;
+                     position: fixed;
+                     padding: 24px;
+                     text-align: center;
+                     z-index: 9999;
+                     opacity: 0.95;
+                     border: 1px solid #FF0601;
+                     border-radius: 10px;
+
+                   }
+
+                   @media screen and (max-width: 760px) {
+                     .modal-interstitial {
+                       bottom: 24px;
+                       left: 24px;
+                       right: 24px;
+                     }
+                   }
+
+                   @media screen and (max-width: 428px) {
+                     .modal-interstitial {
+                       left: 24px;
+                     }
+                   }
+
+                   @media screen and (min-width: 760px) {
+                     .modal-interstitial {
+                       left: 50%;
+                       top: 50%;
+                       transform: translate(-50%, -50%);
+                     }
+                   }
+
+                   @media screen and (max-width: 600px){
+
+                     .modal-interstitial{
+                       visibility: hidden;
+                       }
+                   }
+
+                   .modal-interstitial-actions {
+                     align-items: center;
+                     display: grid;
+                     grid-auto-flow: column;
+                     grid-column-gap: 4px;
+                     justify-items: center;
+                   }
+
+                   .modal-interstitial-actions-action {
+                     background-color: transparent;
+                     border-color: #673ab7;
+                     border-radius: 9999px;
+                     border-style: solid;
+                     border-width: 2px;
+                     color: #673ab7;
+                     cursor: pointer;
+                     padding: 8px 16px;
+                     transition: filter 500ms ease;
+                   }
+
+                   .modal-interstitial-actions-action:focus,
+                   .modal-interstitial-actions-action:hover {
+                     filter: brightness(1.8);
+                     outline: none;
+                   }
+
+
+
+                   .modal-interstitial-chrome-actions {
+                     align-items: end;
+                     display: grid;
+                     grid-auto-flow: column;
+                     justify-items: end;
+                   }
+
+                   .modal-interstitial-chrome-actions-action {
+                     background-color: transparent;
+                     border-width: 0;
+                     color: #2a2a2a !important;
+                     cursor: pointer;
+                     height: auto !important;
+                     line-height: inherit !important;
+                     padding: 0 !important;
+                     position: static !important;
+                     transition: color 500ms ease;
+                     width: auto !important;
+                   }
+
+                   .modal-interstitial-chrome-actions-action:focus,
+                   .modal-interstitial-chrome-actions-action:hover {
+                     filter: brightness(1.1);
+                     outline: none;
+                   }
+
+                   .modal-interstitial-chrome-actions-action-media-object {
+                     direction: ltr;
+                     display: inline-block;
+                     font-family: 'Material Icons', sans-serif;
+                     color: white;
+                     font-size: 24px;
+                     font-style: normal;
+                     font-weight: normal;
+                     letter-spacing: normal;
+                     line-height: 1;
+                     text-transform: none;
+                     white-space: nowrap;
+                     word-wrap: normal;
+                   }
+
+                   .modal-interstitial-label {
+                     display: grid;
+                     grid-auto-flow: row;
+                     grid-row-gap: 12px;
+                   }
+
+                   .modal-interstitial-label-description {
+                     font-size: 50px;
+                     line-height: 1.4em;
+                     text-align: center;
+                   }
+
+
+          </style>
+
+          <!--  <aside id="fermer" class="modal-interstitial" >
+             <div class="modal-interstitial-chrome">
+               <div class="modal-interstitial-chrome-actions">
+                 <div class="modal-interstitial-chrome-actions-action ol-close">
+                   <div class="modal-interstitial-chrome-actions-action-media">
+                     <div  class="modal-interstitial-chrome-actions-action-media-object" onclick="document.getElementById('fermer').style.display='none'">
+                       close
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+            <div class="modal-interstitial-label">
+               <span class="modal-interstitial-label-description"> ☛ Leave the mouse on the video to activate the sound ! </span>
+             </div>
+
+
+           </aside>-->
+        </div>
+<!-- ************* -->
+
+
+
+      <div class="navCategorie">
+        <a href="web.html"  >WEB</a>
+        <a href="making.html" >MAKING</a>
+        <a href="illustrations.html" >ILLUSTRATION</a>
+        <a href="spaces.html" >EXPERIENCES</a>
+        <a href="index.html" >HOME</a>
+        </div>
+
+        <div class="menu" id="menu" onclick="settop()">
+        </div>
+
+        <section class="body block">
+            <div class="biographie center">
+            <p><span class="miller">Romance Office </span>is an interdisciplinary design office exploring the making of place through research, writing, drawing, and code.</p>
+            <p>We think the future is <span class="miller">designed</span> and therefore <span class="miller">interdisciplinary</span> so we work <span class="miller">transmediums</span>.</p>
+            <p>We are based in Zurich, Switzerland</p>
+            <p class="tight">Reach out <a href="mailto:info@romanceoffice.com">info@romanceoffice.com</a></p>
+            <span class="byline small-text">
+                Endnotes:  all work is the intellectual property of Romance Office. As of 2021 the office is only me, <a href="https://ashercaplan.com">Asher Caplan</a> however I believe in collaboration and hope to grow the studio into a meritocratic design cooperative where design is not about ego but about eco.</p>
+            </span>
+            </div>
+        </section>
+
+
+
+
+    </body>
+
+</html>
+
+
+
+
+
+<script type="text/javascript">
+
+    let request = new XMLHttpRequest();
+    request.open("GET", "contenu/design.json", false);
+    request.send(null)
+    let scrolltab = [];
+    let content = JSON.parse(request.responseText);
+
+    let vidblock = '<div class="object" >' +
+        '<video class="video" autoplay muted loop onmouseover="montre(this)" onmouseout="cache(this)" onclick="mutemute(this)" style="z-index:6">' +
+        '<source src="img/1.mp4" type="video/mp4">' +
+        '</video>' +
+        '<div class="textdescri"></div>' +
+        '</div>';
+
+    let imgblock = '<div class="object">' +
+        '<img src="img/fleche.png" class="image" onmouseover="montre(this)" onmouseout="cache(this)" style="z-index:6">' +
+        '<div class="textdescri"></div>' +
+        '</div>';
+
+    let linkblock = '<div class = "object">' +
+        ' <a class="lien" onmouseover="montre(this)" onmouseout="cache(this)">ddbjkdbjksbdjksdjb</a>' +
+        '<div class = "textdescri" ></div> </div>';
+
+    let vimblock = '<div class = "object embed-container">' +
+        "<iframe src='https://player.vimeo.com/video/258964410' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen onmouseover='montre(this)'' onmouseout='cache(this)''></iframe>" +
+        '<div class = "textdescri" ></div> </div>';
+
+    document.getElementById("biographieB").innerHTML = document.getElementById("biographie").innerHTML + "<br><br>"
+
+
+    var vide = document.getElementsByClassName("vide");
+    for (var i = 0; i < vide.length; i++) {
+        vide[i].onmouseover = function() {
+            this.play();
+            this.style.cursor = "pointer";
+        };
+
+        vide[i].onclick = function() {
+            window.open('mailto:diane.becheras@icloud.com');
+
+        };
+
+    }
+
+    function mutemute(blo) {
+        if (window.innerWidth < 600) {
+            if (blo.muted) {
+                blo.muted = false;
+            } else {
+                blo.muted = true;
+            }
+        }
+
+    }
+
+    function cache(blo) {
+        if (window.innerWidth > 600) {
+
+            blo.nextSibling.style.opacity = 0;
+        }
+
+        if (blo.classList.contains("video")) blo.muted = true;
+
+    }
+
+    function montre(blo) {
+        if (window.innerWidth > 600) {
+
+            blo.nextSibling.style.opacity = 1;
+
+        }
+        if (blo.classList.contains("video")) blo.muted = false;
+
+    }
+
+    function settop() {
+        setTimeout(function() { document.getElementById("projects").scrollTop = 0; }, 10);
+
+
+    }
+
+
+
+
+
+    function allerauprojet(bla) {
+        if (bla) {
+            if (window.innerWidth > 600) {
+                document.getElementById("projects").scroll({ top: 0, left: scrolltab[bla] - window.innerWidth / 3, behavior: 'smooth' });
+
+            } else {
+                if (document.getElementById("projects").children[bla].id == "matierelum") {
+                    document.body.scrollTop = scrolltab[bla] - window.innerHeight * 0.65;
+                } else {
+                    document.body.scrollTop = scrolltab[bla] - window.innerHeight;
+
+                }
+            }
+        } else {
+            document.body.scrollTop = 0;
+
+        }
+    }
+
+    function ola() {
+
+        let blou = document.getElementsByClassName("object");
+
+        for (let i = 0; i < blou.length; i++) {
+
+
+            if (window.innerWidth > 600) {
+                scrolltab[i] = blou[i].offsetLeft;
+            } else {
+                scrolltab[i] = blou[i].offsetTop + blou[i].offsetHeight;
+            }
+
+        }
+    }
+
+    // document.getElementById("projects").addEventListener("mousewheel", MouseWheelHandler, false);
+    // document.getElementById("projects").addEventListener("DOMMouseScroll", MouseWheelHandler, false);
+    $("body").mousewheel(function(event, delta) {
+        if (window.innerWidth > 600) {
+            document.getElementById("projects").scrollLeft -= (delta * 2);
+        } else {
+            document.getElementById("projects").scrollTop -= (delta * 2);
+
+        }
+    })
+
+    for (let i = 0; i < content.length; i++) {
+        /*if ((i == 0) && (window.innerWidth < 600)) {
+            let container = document.createElement('div');
+            container.innerHTML = '<a class="block" onclick="allerauprojet()">Contact</a>';
+            let div = container.firstChild;
+           // document.querySelector(".menu").appendChild(div);
+           let divo = document.querySelector(".navCategorie").firstChild;
+        document.querySelector(".navCategorie").insertBefore(div, divo);
+      }*/
+
+        let container = document.createElement('div');
+        container.innerHTML = '<a class="block" onclick="allerauprojet(this.id)"></a>';
+
+        let div = container.firstChild;
+        div.innerHTML = content[i].titre;
+        if (window.innerWidth < 600) div.innerHTML += " ."
+        div.setAttribute("id", i);
+        document.querySelector(".menu").appendChild(div);
+
+        let douv = document.createElement('div');
+        douv.classList.add("point");
+        douv.innerHTML = '.';
+        document.querySelector(".menu").appendChild(douv);
+
+
+        container = document.createElement('div');
+        if (content[i].image) {
+            container.innerHTML = imgblock;
+            div = container.firstChild;
+            div.id = content[i].id;
+            div.querySelector(".image").src = content[i].image;
+
+            if (window.innerWidth > 600) {
+                div.querySelector(".image").style.width = content[i].width;
+                div.querySelector(".image").style.height = content[i].height;
+            } else {
+                console.log(div.querySelector(".image").scrollWidth)
+            }
+        } else if (content[i].video) {
+            container.innerHTML = vidblock;
+            div = container.firstChild;
+            div.id = content[i].id;
+            div.querySelector(".video").src = content[i].video;
+            if (window.innerWidth > 600) {
+                div.querySelector(".video").style.width = content[i].width;
+
+            } else {
+                div.querySelector(".video").controls = true;
+                div.querySelector(".video").controlsList = "nodownload";
+                div.querySelector(".video").disablePictureInPicture = true;
+                console.log(div.querySelector(".video").width);
+
+            }
+            if (content[i].url) {
+                let hel = div.querySelector(".video");
+                hel.onclick = function() {
+                    window.open(content[i].url);
+                };
+                hel.style.cursor = "pointer"
+            }
+
+        } else if (content[i].lien) {
+            container.innerHTML = linkblock;
+            div = container.firstChild;
+            div.id = content[i].id;
+            div.querySelector(".lien").innerHTML = content[i].lien;
+            div.querySelector(".lien").setAttribute("href", content[i].url);
+            div.querySelector(".lien").setAttribute('target', '_blank');
+
+        } else if (content[i].vimeo) {
+            container.innerHTML = vimblock;
+            div = container.firstChild;
+            div.id = content[i].id;
+            if (window.innerWidth > 600) {
+                div.style.minWidth = content[i].width + "px";
+            } else {
+
+            }
+        }
+
+
+        div.querySelector(".textdescri").innerHTML = content[i].description;
+        if (window.innerWidth > 600) {
+
+            if (content[i].top) div.style.transform = "translateY(" + content[i].top + ")";
+            if (content[i].left) div.style.marginLeft = content[i].left;
+            if (content[i].right) div.style.marginRight = content[i].right;
+        }
+
+
+
+
+        document.querySelector(".projects").appendChild(div);
+        if (window.innerWidth > 600) {
+            scrolltab[i] = div.offsetLeft;
+        } else {
+            let clonons = div.querySelector(".textdescri").cloneNode(true);
+            let parento = div.querySelector(".textdescri").parentNode;
+            div.querySelector(".textdescri").parentNode.removeChild(div.querySelector(".textdescri"));
+            parento.insertBefore(clonons, div.children[0]);
+            scrolltab[i] = div.offsetTop;
+        }
+    }
+
+    setTimeout(function() {
+        ola();
+    }, 1000);
+
+    window.onresize = ola;
+</script>
